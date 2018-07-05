@@ -1,0 +1,657 @@
+2018/05/13 19:11:17 [notice] 24052#19740: using the "select" event method
+2018/05/13 19:11:17 [notice] 24052#19740: nginx/1.13.12
+2018/05/13 19:11:17 [info] 24052#19740: OS: 260200 build:9200, "", suite:100, type:1
+2018/05/13 19:11:17 [notice] 24052#19740: start worker processes
+2018/05/13 19:11:17 [notice] 24052#19740: start worker process 19928
+2018/05/13 19:11:20 [notice] 19928#6428: nginx/1.13.12
+2018/05/13 19:11:20 [info] 19928#6428: OS: 260200 build:9200, "", suite:100, type:1
+2018/05/13 19:11:20 [notice] 19928#6428: create thread 18820
+2018/05/13 19:11:20 [notice] 19928#6428: create thread 26324
+2018/05/13 19:11:20 [notice] 19928#6428: create thread 17964
+2018/05/13 19:24:05 [notice] 7252#14276: using the "select" event method
+2018/05/13 19:24:05 [notice] 7252#14276: nginx/1.13.12
+2018/05/13 19:24:05 [info] 7252#14276: OS: 260200 build:9200, "", suite:100, type:1
+2018/05/13 19:24:05 [notice] 7252#14276: start worker processes
+2018/05/13 19:24:05 [notice] 7252#14276: start worker process 13812
+2018/05/13 19:24:06 [notice] 13812#15420: nginx/1.13.12
+2018/05/13 19:24:06 [info] 13812#15420: OS: 260200 build:9200, "", suite:100, type:1
+2018/05/13 19:24:06 [notice] 13812#15420: create thread 4936
+2018/05/13 19:24:06 [notice] 13812#15420: create thread 4084
+2018/05/13 19:24:06 [notice] 13812#15420: create thread 15556
+2018/05/13 19:24:20 [notice] 7772#15416: signal process started
+2018/05/13 19:24:20 [notice] 7252#14276: exiting
+2018/05/13 19:24:20 [notice] 13812#15420: gracefully shutting down
+2018/05/13 19:24:20 [notice] 13812#4084: exiting
+2018/05/13 19:24:20 [notice] 13812#4936: exiting
+2018/05/13 19:24:20 [notice] 13812#15420: exit
+2018/05/13 19:24:20 [notice] 7252#14276: worker process 13812 exited with code 0
+2018/05/13 19:24:20 [notice] 7252#14276: exit
+2018/05/13 19:24:58 [notice] 16008#15412: using the "select" event method
+2018/05/13 19:24:58 [notice] 16008#15412: nginx/1.13.12
+2018/05/13 19:24:58 [info] 16008#15412: OS: 260200 build:9200, "", suite:100, type:1
+2018/05/13 19:24:58 [notice] 16008#15412: start worker processes
+2018/05/13 19:24:58 [notice] 16008#15412: start worker process 8468
+2018/05/13 19:24:59 [notice] 8468#11872: nginx/1.13.12
+2018/05/13 19:24:59 [info] 8468#11872: OS: 260200 build:9200, "", suite:100, type:1
+2018/05/13 19:24:59 [notice] 8468#11872: create thread 15788
+2018/05/13 19:24:59 [notice] 8468#11872: create thread 15380
+2018/05/13 19:24:59 [notice] 8468#11872: create thread 6692
+2018/05/13 19:34:42 [error] 8468#15788: *1 CreateFile() "E:\Workspace\DatangMobile\5G_Exhibition\nginx-rtmp-win32-1.2.1\nginx-rtmp-win32-1.2.1/html/history/history.css" failed (3: The system cannot find the path specified), client: 127.0.0.1, server: , request: "GET /history/history.css HTTP/1.1", host: "localhost:8080", referrer: "http://localhost:8080/index.html"
+2018/05/13 19:34:42 [error] 8468#15788: *2 CreateFile() "E:\Workspace\DatangMobile\5G_Exhibition\nginx-rtmp-win32-1.2.1\nginx-rtmp-win32-1.2.1/html/history/history.js" failed (3: The system cannot find the path specified), client: 127.0.0.1, server: , request: "GET /history/history.js HTTP/1.1", host: "localhost:8080", referrer: "http://localhost:8080/index.html"
+2018/05/13 19:34:43 [error] 8468#15788: *1 CreateFile() "E:\Workspace\DatangMobile\5G_Exhibition\nginx-rtmp-win32-1.2.1\nginx-rtmp-win32-1.2.1/html/favicon.ico" failed (2: The system cannot find the file specified), client: 127.0.0.1, server: , request: "GET /favicon.ico HTTP/1.1", host: "localhost:8080", referrer: "http://localhost:8080/index.html"
+2018/05/13 19:34:53 [info] 8468#15788: *3 client closed connection while waiting for request, client: 127.0.0.1, server: 0.0.0.0:8080
+2018/05/13 19:34:54 [error] 8468#15788: *1 CreateFile() "E:\Workspace\DatangMobile\5G_Exhibition\nginx-rtmp-win32-1.2.1\nginx-rtmp-win32-1.2.1/html/history/history.css" failed (3: The system cannot find the path specified), client: 127.0.0.1, server: , request: "GET /history/history.css HTTP/1.1", host: "localhost:8080", referrer: "http://localhost:8080/index.html"
+2018/05/13 19:34:54 [error] 8468#15788: *2 CreateFile() "E:\Workspace\DatangMobile\5G_Exhibition\nginx-rtmp-win32-1.2.1\nginx-rtmp-win32-1.2.1/html/history/history.js" failed (3: The system cannot find the path specified), client: 127.0.0.1, server: , request: "GET /history/history.js HTTP/1.1", host: "localhost:8080", referrer: "http://localhost:8080/index.html"
+2018/05/13 19:37:14 [error] 8468#15788: *4 CreateFile() "E:\Workspace\DatangMobile\5G_Exhibition\nginx-rtmp-win32-1.2.1\nginx-rtmp-win32-1.2.1/html/history/history.css" failed (3: The system cannot find the path specified), client: 127.0.0.1, server: , request: "GET /history/history.css HTTP/1.1", host: "localhost:8080", referrer: "http://localhost:8080/index.html"
+2018/05/13 19:37:14 [error] 8468#15788: *5 CreateFile() "E:\Workspace\DatangMobile\5G_Exhibition\nginx-rtmp-win32-1.2.1\nginx-rtmp-win32-1.2.1/html/history/history.js" failed (3: The system cannot find the path specified), client: 127.0.0.1, server: , request: "GET /history/history.js HTTP/1.1", host: "localhost:8080", referrer: "http://localhost:8080/index.html"
+2018/05/13 19:37:20 [error] 8468#15788: *5 CreateFile() "E:\Workspace\DatangMobile\5G_Exhibition\nginx-rtmp-win32-1.2.1\nginx-rtmp-win32-1.2.1/html/history/history.css" failed (3: The system cannot find the path specified), client: 127.0.0.1, server: , request: "GET /history/history.css HTTP/1.1", host: "localhost:8080", referrer: "http://localhost:8080/index.html"
+2018/05/13 19:37:20 [error] 8468#15788: *4 CreateFile() "E:\Workspace\DatangMobile\5G_Exhibition\nginx-rtmp-win32-1.2.1\nginx-rtmp-win32-1.2.1/html/history/history.js" failed (3: The system cannot find the path specified), client: 127.0.0.1, server: , request: "GET /history/history.js HTTP/1.1", host: "localhost:8080", referrer: "http://localhost:8080/index.html"
+2018/05/13 19:37:46 [info] 8468#15788: *6 client closed connection while waiting for request, client: 127.0.0.1, server: 0.0.0.0:8080
+2018/05/13 19:37:46 [error] 8468#15788: *4 CreateFile() "E:\Workspace\DatangMobile\5G_Exhibition\nginx-rtmp-win32-1.2.1\nginx-rtmp-win32-1.2.1/html/history/history.css" failed (3: The system cannot find the path specified), client: 127.0.0.1, server: , request: "GET /history/history.css HTTP/1.1", host: "localhost:8080", referrer: "http://localhost:8080/index.html"
+2018/05/13 19:37:46 [error] 8468#15788: *4 CreateFile() "E:\Workspace\DatangMobile\5G_Exhibition\nginx-rtmp-win32-1.2.1\nginx-rtmp-win32-1.2.1/html/history/history.js" failed (3: The system cannot find the path specified), client: 127.0.0.1, server: , request: "GET /history/history.js HTTP/1.1", host: "localhost:8080", referrer: "http://localhost:8080/index.html"
+2018/05/13 19:38:00 [info] 8468#15788: *7 client closed connection while waiting for request, client: 127.0.0.1, server: 0.0.0.0:8080
+2018/05/13 19:38:00 [info] 8468#15788: *8 client closed connection while waiting for request, client: 127.0.0.1, server: 0.0.0.0:8080
+2018/05/13 19:38:00 [info] 8468#15788: *9 client closed connection while waiting for request, client: 127.0.0.1, server: 0.0.0.0:8080
+2018/05/13 19:38:36 [info] 8468#15788: *10 client connected '127.0.0.1'
+2018/05/13 19:38:36 [info] 8468#15788: *10 connect: app='live' args='' flashver='WIN 29,0,0,171' swf_url='http://localhost:8080/Main.swf' tc_url='rtmp://localhost/live' page_url='http://localhost:8080/index.html' acodecs=3575 vcodecs=252 object_encoding=3, client: 127.0.0.1, server: 0.0.0.0:1935
+2018/05/13 19:38:36 [info] 8468#15788: *10 createStream, client: 127.0.0.1, server: 0.0.0.0:1935
+2018/05/13 19:38:36 [info] 8468#15788: *10 play: name='stream' args='' start=0 duration=0 reset=0 silent=0, client: 127.0.0.1, server: 0.0.0.0:1935
+2018/05/13 19:38:46 [info] 8468#15788: *11 client connected '127.0.0.1'
+2018/05/13 19:38:46 [info] 8468#15788: *11 connect: app='live' args='' flashver='WIN 29,0,0,171' swf_url='http://localhost:8080/Main.swf' tc_url='rtmp://localhost/live' page_url='http://localhost:8080/index.html' acodecs=3575 vcodecs=252 object_encoding=3, client: 127.0.0.1, server: 0.0.0.0:1935
+2018/05/13 19:38:46 [info] 8468#15788: *11 createStream, client: 127.0.0.1, server: 0.0.0.0:1935
+2018/05/13 19:38:46 [info] 8468#15788: *11 publish: name='stream' args='' type= silent=0, client: 127.0.0.1, server: 0.0.0.0:1935
+2018/05/13 19:38:46 [error] 8468#15788: *11 codec: error parsing data frame, client: 127.0.0.1, server: 0.0.0.0:1935
+2018/05/13 19:38:49 [info] 8468#15788: *11 disconnect, client: 127.0.0.1, server: 0.0.0.0:1935
+2018/05/13 19:38:49 [info] 8468#15788: *11 deleteStream, client: 127.0.0.1, server: 0.0.0.0:1935
+2018/05/13 19:38:54 [info] 8468#15788: *12 client connected '127.0.0.1'
+2018/05/13 19:38:54 [info] 8468#15788: *12 connect: app='live' args='' flashver='WIN 29,0,0,171' swf_url='http://localhost:8080/Main.swf' tc_url='rtmp://localhost/live' page_url='http://localhost:8080/index.html' acodecs=3575 vcodecs=252 object_encoding=3, client: 127.0.0.1, server: 0.0.0.0:1935
+2018/05/13 19:38:54 [info] 8468#15788: *12 createStream, client: 127.0.0.1, server: 0.0.0.0:1935
+2018/05/13 19:38:54 [info] 8468#15788: *12 publish: name='stream' args='' type= silent=0, client: 127.0.0.1, server: 0.0.0.0:1935
+2018/05/13 19:38:54 [error] 8468#15788: *12 codec: error parsing data frame, client: 127.0.0.1, server: 0.0.0.0:1935
+2018/05/13 19:56:40 [info] 8468#15788: *12 disconnect, client: 127.0.0.1, server: 0.0.0.0:1935
+2018/05/13 19:56:40 [info] 8468#15788: *12 deleteStream, client: 127.0.0.1, server: 0.0.0.0:1935
+2018/05/13 19:56:47 [info] 8468#15788: *13 client connected '127.0.0.1'
+2018/05/13 19:56:47 [info] 8468#15788: *13 connect: app='live' args='' flashver='WIN 29,0,0,171' swf_url='http://localhost:8080/Main.swf' tc_url='rtmp://localhost/live' page_url='http://localhost:8080/index.html' acodecs=3575 vcodecs=252 object_encoding=3, client: 127.0.0.1, server: 0.0.0.0:1935
+2018/05/13 19:56:47 [info] 8468#15788: *13 createStream, client: 127.0.0.1, server: 0.0.0.0:1935
+2018/05/13 19:56:47 [info] 8468#15788: *13 publish: name='stream' args='' type= silent=0, client: 127.0.0.1, server: 0.0.0.0:1935
+2018/05/13 19:56:47 [error] 8468#15788: *13 codec: error parsing data frame, client: 127.0.0.1, server: 0.0.0.0:1935
+2018/05/13 20:01:06 [info] 8468#15788: *14 client connected '192.168.0.234'
+2018/05/13 20:01:06 [info] 8468#15788: *14 connect: app='live' args='' flashver='LNX 9,0,124,2' swf_url='' tc_url='rtmp://192.168.0.217:1935/live' page_url='' acodecs=4071 vcodecs=252 object_encoding=0, client: 192.168.0.234, server: 0.0.0.0:1935
+2018/05/13 20:01:06 [info] 8468#15788: *14 createStream, client: 192.168.0.234, server: 0.0.0.0:1935
+2018/05/13 20:01:06 [info] 8468#15788: *14 play: name='stream' args='' start=-2000 duration=0 reset=0 silent=0, client: 192.168.0.234, server: 0.0.0.0:1935
+2018/05/13 20:02:17 [info] 8468#15788: *14 WSARecv() failed (10054: An existing connection was forcibly closed by the remote host), client: 192.168.0.234, server: 0.0.0.0:1935
+2018/05/13 20:02:17 [info] 8468#15788: *14 disconnect, client: 192.168.0.234, server: 0.0.0.0:1935
+2018/05/13 20:02:17 [info] 8468#15788: *14 deleteStream, client: 192.168.0.234, server: 0.0.0.0:1935
+2018/05/13 20:03:44 [info] 8468#15788: *13 disconnect, client: 127.0.0.1, server: 0.0.0.0:1935
+2018/05/13 20:03:44 [info] 8468#15788: *13 deleteStream, client: 127.0.0.1, server: 0.0.0.0:1935
+2018/05/13 20:03:44 [info] 8468#15788: *10 disconnect, client: 127.0.0.1, server: 0.0.0.0:1935
+2018/05/13 20:03:44 [info] 8468#15788: *10 deleteStream, client: 127.0.0.1, server: 0.0.0.0:1935
+2018/05/13 20:03:52 [info] 8468#15788: *16 client closed connection while waiting for request, client: 127.0.0.1, server: 0.0.0.0:8080
+2018/05/13 20:07:21 [error] 8468#15788: *17 CreateFile() "E:\Workspace\DatangMobile\5G_Exhibition\nginx-rtmp-win32-1.2.1\nginx-rtmp-win32-1.2.1/html/history/history.css" failed (3: The system cannot find the path specified), client: 127.0.0.1, server: , request: "GET /history/history.css HTTP/1.1", host: "localhost:8080", referrer: "http://localhost:8080/index.html"
+2018/05/13 20:07:21 [error] 8468#15788: *18 CreateFile() "E:\Workspace\DatangMobile\5G_Exhibition\nginx-rtmp-win32-1.2.1\nginx-rtmp-win32-1.2.1/html/history/history.js" failed (3: The system cannot find the path specified), client: 127.0.0.1, server: , request: "GET /history/history.js HTTP/1.1", host: "localhost:8080", referrer: "http://localhost:8080/index.html"
+2018/05/13 20:07:26 [error] 8468#15788: *18 CreateFile() "E:\Workspace\DatangMobile\5G_Exhibition\nginx-rtmp-win32-1.2.1\nginx-rtmp-win32-1.2.1/html/favicon.ico" failed (2: The system cannot find the file specified), client: 127.0.0.1, server: , request: "GET /favicon.ico HTTP/1.1", host: "localhost:8080", referrer: "http://localhost:8080/index.html"
+2018/05/13 20:08:21 [info] 8468#15788: *19 client timed out (10060: A connection attempt failed because the connected party did not properly respond after a period of time, or established connection failed because connected host has failed to respond) while waiting for request, client: 127.0.0.1, server: 0.0.0.0:8080
+2018/05/13 20:08:21 [info] 8468#15788: *20 client timed out (10060: A connection attempt failed because the connected party did not properly respond after a period of time, or established connection failed because connected host has failed to respond) while waiting for request, client: 127.0.0.1, server: 0.0.0.0:8080
+2018/05/13 20:08:21 [info] 8468#15788: *21 client timed out (10060: A connection attempt failed because the connected party did not properly respond after a period of time, or established connection failed because connected host has failed to respond) while waiting for request, client: 127.0.0.1, server: 0.0.0.0:8080
+2018/05/13 20:08:21 [info] 8468#15788: *22 client timed out (10060: A connection attempt failed because the connected party did not properly respond after a period of time, or established connection failed because connected host has failed to respond) while waiting for request, client: 127.0.0.1, server: 0.0.0.0:8080
+2018/05/13 20:09:21 [info] 8468#15788: *23 client connected '127.0.0.1'
+2018/05/13 20:09:21 [info] 8468#15788: *23 connect: app='live' args='' flashver='WIN 29,0,0,171' swf_url='http://localhost:8080/Main.swf' tc_url='rtmp://localhost/live' page_url='http://localhost:8080/index.html' acodecs=3575 vcodecs=252 object_encoding=3, client: 127.0.0.1, server: 0.0.0.0:1935
+2018/05/13 20:09:21 [info] 8468#15788: *23 createStream, client: 127.0.0.1, server: 0.0.0.0:1935
+2018/05/13 20:09:21 [info] 8468#15788: *23 publish: name='stream' args='' type= silent=0, client: 127.0.0.1, server: 0.0.0.0:1935
+2018/05/13 20:09:21 [error] 8468#15788: *23 codec: error parsing data frame, client: 127.0.0.1, server: 0.0.0.0:1935
+2018/05/13 20:09:22 [info] 8468#15788: *24 client connected '127.0.0.1'
+2018/05/13 20:09:22 [info] 8468#15788: *24 connect: app='live' args='' flashver='WIN 29,0,0,171' swf_url='http://localhost:8080/Main.swf' tc_url='rtmp://localhost/live' page_url='http://localhost:8080/index.html' acodecs=3575 vcodecs=252 object_encoding=3, client: 127.0.0.1, server: 0.0.0.0:1935
+2018/05/13 20:09:22 [info] 8468#15788: *24 createStream, client: 127.0.0.1, server: 0.0.0.0:1935
+2018/05/13 20:09:22 [info] 8468#15788: *24 play: name='stream' args='' start=0 duration=0 reset=0 silent=0, client: 127.0.0.1, server: 0.0.0.0:1935
+2018/05/13 20:11:11 [info] 8468#15788: *24 disconnect, client: 127.0.0.1, server: 0.0.0.0:1935
+2018/05/13 20:11:11 [info] 8468#15788: *24 deleteStream, client: 127.0.0.1, server: 0.0.0.0:1935
+2018/05/13 20:11:11 [info] 8468#15788: *23 disconnect, client: 127.0.0.1, server: 0.0.0.0:1935
+2018/05/13 20:11:11 [info] 8468#15788: *23 deleteStream, client: 127.0.0.1, server: 0.0.0.0:1935
+2018/06/04 14:59:30 [emerg] 15620#11696: unexpected end of file, expecting "}" in D:\WorkSpace\DatangMobile\5GExhibition\DT_LiveStreamServer/conf/nginx.conf:41
+2018/06/04 15:07:53 [emerg] 1392#6272: unexpected end of file, expecting "}" in D:\WorkSpace\DatangMobile\5GExhibition\DT_LiveStreamServer/conf/nginx.conf:41
+2018/06/04 15:08:12 [emerg] 17028#6788: unexpected end of file, expecting "}" in D:\WorkSpace\DatangMobile\5GExhibition\DT_LiveStreamServer/conf/nginx.conf:41
+2018/06/04 15:09:18 [emerg] 16492#3768: unexpected end of file, expecting "}" in C:\DT_LiveStreamServer/conf/nginx.conf:41
+2018/06/04 15:09:30 [emerg] 18976#15424: unexpected end of file, expecting "}" in C:\DT_LiveStreamServer/conf/nginx.conf:41
+2018/06/04 15:12:05 [notice] 11344#14264: using the "select" event method
+2018/06/04 15:12:05 [notice] 11344#14264: nginx/1.13.12
+2018/06/04 15:12:05 [info] 11344#14264: OS: 260200 build:9200, "", suite:300, type:1
+2018/06/04 15:12:05 [notice] 11344#14264: start worker processes
+2018/06/04 15:12:05 [notice] 11344#14264: start worker process 13856
+2018/06/04 15:12:05 [notice] 13856#9684: nginx/1.13.12
+2018/06/04 15:12:05 [info] 13856#9684: OS: 260200 build:9200, "", suite:300, type:1
+2018/06/04 15:12:05 [notice] 13856#9684: create thread 14756
+2018/06/04 15:12:05 [notice] 13856#9684: create thread 15516
+2018/06/04 15:12:05 [notice] 13856#9684: create thread 7464
+2018/06/04 15:21:23 [info] 13856#14756: *1 client connected '127.0.0.1'
+2018/06/04 15:21:23 [info] 13856#14756: *1 connect: app='hls' args='' flashver='LNX 9,0,124,2' swf_url='' tc_url='rtmp://localhost:1935/hls' page_url='' acodecs=4071 vcodecs=252 object_encoding=0, client: 127.0.0.1, server: 0.0.0.0:1935
+2018/06/04 15:21:23 [info] 13856#14756: *1 createStream, client: 127.0.0.1, server: 0.0.0.0:1935
+2018/06/04 15:21:23 [info] 13856#14756: *1 play: name='' args='' start=-2000 duration=0 reset=0 silent=0, client: 127.0.0.1, server: 0.0.0.0:1935
+2018/06/04 15:21:31 [notice] 14048#19000: using the "select" event method
+2018/06/04 15:21:31 [notice] 14048#19000: nginx/1.13.12
+2018/06/04 15:21:31 [info] 14048#19000: OS: 260200 build:9200, "", suite:300, type:1
+2018/06/04 15:21:31 [notice] 14048#19000: start worker processes
+2018/06/04 15:21:31 [notice] 14048#19000: start worker process 13252
+2018/06/04 15:21:31 [notice] 13252#14128: nginx/1.13.12
+2018/06/04 15:21:31 [info] 13252#14128: OS: 260200 build:9200, "", suite:300, type:1
+2018/06/04 15:21:31 [notice] 13252#14128: create thread 2592
+2018/06/04 15:21:31 [notice] 13252#14128: create thread 17952
+2018/06/04 15:21:31 [notice] 13252#14128: create thread 17796
+2018/06/04 15:21:33 [notice] 2916#14876: using the "select" event method
+2018/06/04 15:21:33 [notice] 2916#14876: nginx/1.13.12
+2018/06/04 15:21:33 [info] 2916#14876: OS: 260200 build:9200, "", suite:300, type:1
+2018/06/04 15:21:33 [notice] 2916#14876: start worker processes
+2018/06/04 15:21:33 [notice] 2916#14876: start worker process 2480
+2018/06/04 15:21:33 [notice] 2480#11244: nginx/1.13.12
+2018/06/04 15:21:33 [info] 2480#11244: OS: 260200 build:9200, "", suite:300, type:1
+2018/06/04 15:21:33 [notice] 2480#11244: create thread 18244
+2018/06/04 15:21:33 [notice] 2480#11244: create thread 9228
+2018/06/04 15:21:33 [notice] 2480#11244: create thread 9220
+2018/06/04 15:21:46 [info] 13856#14756: *1 disconnect, client: 127.0.0.1, server: 0.0.0.0:1935
+2018/06/04 15:21:46 [info] 13856#14756: *1 deleteStream, client: 127.0.0.1, server: 0.0.0.0:1935
+2018/06/04 15:27:20 [notice] 1268#660: using the "select" event method
+2018/06/04 15:27:20 [notice] 1268#660: nginx/1.13.12
+2018/06/04 15:27:20 [info] 1268#660: OS: 260200 build:9200, "", suite:300, type:1
+2018/06/04 15:27:20 [notice] 1268#660: start worker processes
+2018/06/04 15:27:20 [notice] 1268#660: start worker process 3096
+2018/06/04 15:27:20 [notice] 3096#3168: nginx/1.13.12
+2018/06/04 15:27:20 [info] 3096#3168: OS: 260200 build:9200, "", suite:300, type:1
+2018/06/04 15:27:20 [notice] 3096#3168: create thread 5272
+2018/06/04 15:27:20 [notice] 3096#3168: create thread 14808
+2018/06/04 15:27:20 [notice] 3096#3168: create thread 16096
+2018/06/04 15:29:39 [notice] 12888#4276: signal process started
+2018/06/04 15:29:39 [notice] 1268#660: exiting
+2018/06/04 15:29:39 [notice] 3096#3168: gracefully shutting down
+2018/06/04 15:29:39 [notice] 3096#14808: exiting
+2018/06/04 15:29:39 [notice] 3096#5272: exiting
+2018/06/04 15:29:39 [notice] 3096#3168: exit
+2018/06/04 15:29:39 [notice] 1268#660: worker process 3096 exited with code 0
+2018/06/04 15:29:39 [notice] 1268#660: exit
+2018/06/04 15:29:51 [notice] 7360#11880: using the "select" event method
+2018/06/04 15:29:51 [notice] 7360#11880: nginx/1.13.12
+2018/06/04 15:29:51 [info] 7360#11880: OS: 260200 build:9200, "", suite:300, type:1
+2018/06/04 15:29:51 [notice] 7360#11880: start worker processes
+2018/06/04 15:29:51 [notice] 7360#11880: start worker process 440
+2018/06/04 15:29:51 [notice] 440#7164: nginx/1.13.12
+2018/06/04 15:29:51 [info] 440#7164: OS: 260200 build:9200, "", suite:300, type:1
+2018/06/04 15:29:51 [notice] 440#7164: create thread 13320
+2018/06/04 15:29:51 [notice] 440#7164: create thread 13676
+2018/06/04 15:29:51 [notice] 440#7164: create thread 13516
+2018/06/04 15:30:19 [info] 440#13320: *1 client connected '192.168.1.103'
+2018/06/04 15:30:19 [info] 440#13320: *1 connect: app='hls' args='' flashver='' swf_url='' tc_url='rtmp://192.168.1.102/hls' page_url='' acodecs=0 vcodecs=0 object_encoding=0, client: 192.168.1.103, server: 0.0.0.0:1935
+2018/06/04 15:30:19 [info] 440#13320: *1 createStream, client: 192.168.1.103, server: 0.0.0.0:1935
+2018/06/04 15:30:19 [info] 440#13320: *1 publish: name='123' args='' type=live silent=0, client: 192.168.1.103, server: 0.0.0.0:1935
+2018/06/04 15:30:46 [info] 440#13320: *2 client connected '127.0.0.1'
+2018/06/04 15:30:46 [info] 440#13320: *2 connect: app='hls' args='' flashver='LNX 9,0,124,2' swf_url='' tc_url='rtmp://localhost:1935/hls' page_url='' acodecs=4071 vcodecs=252 object_encoding=0, client: 127.0.0.1, server: 0.0.0.0:1935
+2018/06/04 15:30:46 [info] 440#13320: *2 createStream, client: 127.0.0.1, server: 0.0.0.0:1935
+2018/06/04 15:30:46 [info] 440#13320: *2 play: name='' args='' start=-2000 duration=0 reset=0 silent=0, client: 127.0.0.1, server: 0.0.0.0:1935
+2018/06/04 15:31:02 [info] 440#13320: *2 disconnect, client: 127.0.0.1, server: 0.0.0.0:1935
+2018/06/04 15:31:02 [info] 440#13320: *2 deleteStream, client: 127.0.0.1, server: 0.0.0.0:1935
+2018/06/04 15:31:02 [info] 440#13320: *3 client connected '192.168.1.102'
+2018/06/04 15:31:02 [info] 440#13320: *3 connect: app='hls' args='' flashver='LNX 9,0,124,2' swf_url='' tc_url='rtmp://192.168.1.102:1935/hls' page_url='' acodecs=4071 vcodecs=252 object_encoding=0, client: 192.168.1.102, server: 0.0.0.0:1935
+2018/06/04 15:31:02 [info] 440#13320: *3 createStream, client: 192.168.1.102, server: 0.0.0.0:1935
+2018/06/04 15:31:02 [info] 440#13320: *3 play: name='' args='' start=-2000 duration=0 reset=0 silent=0, client: 192.168.1.102, server: 0.0.0.0:1935
+2018/06/04 15:32:10 [info] 440#13320: *3 disconnect, client: 192.168.1.102, server: 0.0.0.0:1935
+2018/06/04 15:32:10 [info] 440#13320: *3 deleteStream, client: 192.168.1.102, server: 0.0.0.0:1935
+2018/06/04 15:32:10 [info] 440#13320: *4 client connected '192.168.1.102'
+2018/06/04 15:32:10 [info] 440#13320: *4 connect: app='hls' args='' flashver='LNX 9,0,124,2' swf_url='' tc_url='rtmp://192.168.1.102:1935/hls' page_url='' acodecs=4071 vcodecs=252 object_encoding=0, client: 192.168.1.102, server: 0.0.0.0:1935
+2018/06/04 15:32:10 [info] 440#13320: *4 createStream, client: 192.168.1.102, server: 0.0.0.0:1935
+2018/06/04 15:32:10 [info] 440#13320: *4 play: name='123' args='' start=-2000 duration=0 reset=0 silent=0, client: 192.168.1.102, server: 0.0.0.0:1935
+2018/06/04 15:32:43 [info] 440#13320: *1 deleteStream, client: 192.168.1.103, server: 0.0.0.0:1935
+2018/06/04 15:32:43 [info] 440#13320: *1 disconnect, client: 192.168.1.103, server: 0.0.0.0:1935
+2018/06/04 15:32:43 [info] 440#13320: *1 deleteStream, client: 192.168.1.103, server: 0.0.0.0:1935
+2018/06/04 16:40:26 [info] 440#13320: *4 disconnect, client: 192.168.1.102, server: 0.0.0.0:1935
+2018/06/04 16:40:26 [info] 440#13320: *4 deleteStream, client: 192.168.1.102, server: 0.0.0.0:1935
+2018/06/04 16:41:04 [info] 440#13320: *5 client connected '192.168.1.103'
+2018/06/04 16:41:04 [info] 440#13320: *5 connect: app='hls' args='' flashver='' swf_url='' tc_url='rtmp://192.168.1.102/hls' page_url='' acodecs=0 vcodecs=0 object_encoding=0, client: 192.168.1.103, server: 0.0.0.0:1935
+2018/06/04 16:41:04 [info] 440#13320: *5 createStream, client: 192.168.1.103, server: 0.0.0.0:1935
+2018/06/04 16:41:04 [info] 440#13320: *5 publish: name='123' args='' type=live silent=0, client: 192.168.1.103, server: 0.0.0.0:1935
+2018/06/04 16:41:17 [info] 440#13320: *6 client connected '192.168.1.102'
+2018/06/04 16:41:17 [info] 440#13320: *6 connect: app='hls' args='' flashver='LNX 9,0,124,2' swf_url='' tc_url='rtmp://192.168.1.102:1935/hls' page_url='' acodecs=4071 vcodecs=252 object_encoding=0, client: 192.168.1.102, server: 0.0.0.0:1935
+2018/06/04 16:41:17 [info] 440#13320: *6 createStream, client: 192.168.1.102, server: 0.0.0.0:1935
+2018/06/04 16:41:17 [info] 440#13320: *6 play: name='123' args='' start=-2000 duration=0 reset=0 silent=0, client: 192.168.1.102, server: 0.0.0.0:1935
+2018/06/04 16:41:28 [info] 440#13320: *6 WSARecv() failed (10054: An existing connection was forcibly closed by the remote host), client: 192.168.1.102, server: 0.0.0.0:1935
+2018/06/04 16:41:28 [info] 440#13320: *6 disconnect, client: 192.168.1.102, server: 0.0.0.0:1935
+2018/06/04 16:41:28 [info] 440#13320: *6 deleteStream, client: 192.168.1.102, server: 0.0.0.0:1935
+2018/06/04 16:41:32 [info] 440#13320: *5 deleteStream, client: 192.168.1.103, server: 0.0.0.0:1935
+2018/06/04 16:41:32 [info] 440#13320: *5 disconnect, client: 192.168.1.103, server: 0.0.0.0:1935
+2018/06/04 16:41:32 [info] 440#13320: *5 deleteStream, client: 192.168.1.103, server: 0.0.0.0:1935
+2018/06/04 16:42:37 [info] 440#13320: *7 client connected '192.168.1.103'
+2018/06/04 16:42:37 [info] 440#13320: *7 connect: app='hls' args='' flashver='' swf_url='' tc_url='rtmp://192.168.1.102/hls' page_url='' acodecs=0 vcodecs=0 object_encoding=0, client: 192.168.1.103, server: 0.0.0.0:1935
+2018/06/04 16:42:37 [info] 440#13320: *7 createStream, client: 192.168.1.103, server: 0.0.0.0:1935
+2018/06/04 16:42:37 [info] 440#13320: *7 publish: name='123' args='' type=live silent=0, client: 192.168.1.103, server: 0.0.0.0:1935
+2018/06/04 16:44:27 [info] 440#13320: *7 deleteStream, client: 192.168.1.103, server: 0.0.0.0:1935
+2018/06/04 16:44:27 [info] 440#13320: *7 disconnect, client: 192.168.1.103, server: 0.0.0.0:1935
+2018/06/04 16:44:27 [info] 440#13320: *7 deleteStream, client: 192.168.1.103, server: 0.0.0.0:1935
+2018/06/04 16:44:32 [info] 440#13320: *8 client connected '192.168.1.103'
+2018/06/04 16:44:32 [info] 440#13320: *8 connect: app='hls' args='' flashver='' swf_url='' tc_url='rtmp://192.168.1.102/hls' page_url='' acodecs=0 vcodecs=0 object_encoding=0, client: 192.168.1.103, server: 0.0.0.0:1935
+2018/06/04 16:44:32 [info] 440#13320: *8 createStream, client: 192.168.1.103, server: 0.0.0.0:1935
+2018/06/04 16:44:32 [info] 440#13320: *8 publish: name='123' args='' type=live silent=0, client: 192.168.1.103, server: 0.0.0.0:1935
+2018/06/04 16:49:06 [error] 440#13320: *9 CreateFile() "C:/usr/share/nginx/html/hls/123.m3u8" failed (3: The system cannot find the path specified), client: 192.168.1.102, server: localhost, request: "GET /hls/123.m3u8 HTTP/1.1", host: "192.168.1.102:81"
+2018/06/04 16:50:02 [info] 440#13320: *10 client connected '192.168.1.102'
+2018/06/04 16:50:02 [info] 440#13320: *10 connect: app='hls' args='' flashver='LNX 9,0,124,2' swf_url='' tc_url='rtmp://192.168.1.102:1935/hls' page_url='' acodecs=4071 vcodecs=252 object_encoding=0, client: 192.168.1.102, server: 0.0.0.0:1935
+2018/06/04 16:50:02 [info] 440#13320: *10 createStream, client: 192.168.1.102, server: 0.0.0.0:1935
+2018/06/04 16:50:02 [info] 440#13320: *10 play: name='123' args='' start=-2000 duration=0 reset=0 silent=0, client: 192.168.1.102, server: 0.0.0.0:1935
+2018/06/04 16:50:24 [error] 440#13320: *11 CreateFile() "C:/usr/share/nginx/html/hls/123.m3u8" failed (3: The system cannot find the path specified), client: 192.168.1.102, server: localhost, request: "GET /hls/123.m3u8 HTTP/1.1", host: "192.168.1.102:81"
+2018/06/04 16:52:37 [error] 440#13320: *12 CreateFile() "C:/usr/share/nginx/html/hls/123.m3u8" failed (3: The system cannot find the path specified), client: 127.0.0.1, server: localhost, request: "GET /hls/123.m3u8 HTTP/1.1", host: "localhost:81"
+2018/06/04 16:52:55 [info] 440#13320: *13 client closed connection while waiting for request, client: 127.0.0.1, server: 0.0.0.0:81
+2018/06/04 16:53:03 [info] 440#13320: *12 client 127.0.0.1 closed keepalive connection
+2018/06/04 16:53:06 [error] 440#13320: *14 CreateFile() "C:/usr/share/nginx/html/hls/123.m3u8" failed (3: The system cannot find the path specified), client: 127.0.0.1, server: localhost, request: "GET /hls/123.m3u8 HTTP/1.1", host: "localhost:81"
+2018/06/04 16:53:17 [info] 440#13320: *15 client closed connection while waiting for request, client: 127.0.0.1, server: 0.0.0.0:81
+2018/06/04 16:53:17 [error] 440#13320: *14 CreateFile() "C:/usr/share/nginx/html/hls/123.m3u8" failed (3: The system cannot find the path specified), client: 127.0.0.1, server: localhost, request: "GET /hls/123.m3u8 HTTP/1.1", host: "localhost:81"
+2018/06/04 16:53:18 [error] 440#13320: *14 CreateFile() "C:/usr/share/nginx/html/favicon.ico" failed (3: The system cannot find the path specified), client: 127.0.0.1, server: localhost, request: "GET /favicon.ico HTTP/1.1", host: "localhost:81", referrer: "http://localhost:81/hls/123.m3u8"
+2018/06/04 16:53:30 [info] 440#13320: *16 client closed connection while waiting for request, client: 127.0.0.1, server: 0.0.0.0:81
+2018/06/04 16:53:30 [error] 440#13320: *17 CreateFile() "C:/usr/share/nginx/html/hls/123.m3u8" failed (3: The system cannot find the path specified), client: 192.168.1.102, server: localhost, request: "GET /hls/123.m3u8 HTTP/1.1", host: "192.168.1.102:81"
+2018/06/04 16:53:31 [error] 440#13320: *17 CreateFile() "C:/usr/share/nginx/html/favicon.ico" failed (3: The system cannot find the path specified), client: 192.168.1.102, server: localhost, request: "GET /favicon.ico HTTP/1.1", host: "192.168.1.102:81", referrer: "http://192.168.1.102:81/hls/123.m3u8"
+2018/06/04 16:53:50 [info] 440#13320: *18 client closed connection while waiting for request, client: 192.168.1.102, server: 0.0.0.0:81
+2018/06/04 16:57:24 [info] 440#13320: *10 WSARecv() failed (10054: An existing connection was forcibly closed by the remote host), client: 192.168.1.102, server: 0.0.0.0:1935
+2018/06/04 16:57:24 [info] 440#13320: *10 disconnect, client: 192.168.1.102, server: 0.0.0.0:1935
+2018/06/04 16:57:24 [info] 440#13320: *10 deleteStream, client: 192.168.1.102, server: 0.0.0.0:1935
+2018/06/04 16:57:27 [info] 440#13320: *8 disconnect, client: 192.168.1.103, server: 0.0.0.0:1935
+2018/06/04 16:57:27 [info] 440#13320: *8 deleteStream, client: 192.168.1.103, server: 0.0.0.0:1935
+2018/06/04 16:57:42 [notice] 3644#456: signal process started
+2018/06/04 16:57:42 [notice] 7360#11880: exiting
+2018/06/04 16:57:42 [notice] 440#7164: gracefully shutting down
+2018/06/04 16:57:42 [notice] 440#13676: exiting
+2018/06/04 16:57:42 [notice] 440#13320: exiting
+2018/06/04 16:57:42 [notice] 440#7164: exit
+2018/06/04 16:57:42 [notice] 7360#11880: worker process 440 exited with code 0
+2018/06/04 16:57:42 [notice] 7360#11880: exit
+2018/06/04 16:57:51 [notice] 8412#4948: using the "select" event method
+2018/06/04 16:57:51 [notice] 8412#4948: nginx/1.13.12
+2018/06/04 16:57:51 [info] 8412#4948: OS: 260200 build:9200, "", suite:300, type:1
+2018/06/04 16:57:51 [notice] 8412#4948: start worker processes
+2018/06/04 16:57:51 [notice] 8412#4948: start worker process 14752
+2018/06/04 16:57:51 [notice] 14752#9984: nginx/1.13.12
+2018/06/04 16:57:51 [info] 14752#9984: OS: 260200 build:9200, "", suite:300, type:1
+2018/06/04 16:57:51 [notice] 14752#9984: create thread 3788
+2018/06/04 16:57:51 [notice] 14752#9984: create thread 16060
+2018/06/04 16:57:51 [notice] 14752#9984: create thread 14452
+2018/06/04 17:00:22 [info] 14752#3788: *1 client connected '192.168.1.103'
+2018/06/04 17:00:22 [info] 14752#3788: *1 connect: app='hls' args='' flashver='' swf_url='' tc_url='rtmp://192.168.1.102/hls' page_url='' acodecs=0 vcodecs=0 object_encoding=0, client: 192.168.1.103, server: 0.0.0.0:1935
+2018/06/04 17:00:23 [info] 14752#3788: *1 createStream, client: 192.168.1.103, server: 0.0.0.0:1935
+2018/06/04 17:00:23 [info] 14752#3788: *1 publish: name='123' args='' type=live silent=0, client: 192.168.1.103, server: 0.0.0.0:1935
+2018/06/04 17:00:37 [error] 14752#3788: *2 CreateFile() "C:\DT_LiveStreamServer/temp/hls/123.m3u8" failed (3: The system cannot find the path specified), client: 127.0.0.1, server: localhost, request: "GET /hls/123.m3u8 HTTP/1.1", host: "localhost:81"
+2018/06/04 17:00:53 [info] 14752#3788: *3 client closed connection while waiting for request, client: 127.0.0.1, server: 0.0.0.0:81
+2018/06/04 17:00:53 [error] 14752#3788: *2 CreateFile() "C:\DT_LiveStreamServer/temp/hls/123.m3u8" failed (3: The system cannot find the path specified), client: 127.0.0.1, server: localhost, request: "GET /hls/123.m3u8 HTTP/1.1", host: "localhost:81"
+2018/06/04 17:01:05 [info] 14752#3788: *4 client closed connection while waiting for request, client: 127.0.0.1, server: 0.0.0.0:81
+2018/06/04 17:01:05 [info] 14752#3788: *6 client closed connection while waiting for request, client: 127.0.0.1, server: 0.0.0.0:81
+2018/06/04 17:01:05 [info] 14752#3788: *5 client closed connection while waiting for request, client: 127.0.0.1, server: 0.0.0.0:81
+2018/06/04 17:01:53 [error] 14752#3788: *7 CreateFile() "C:\DT_LiveStreamServer/html/history/history.css" failed (3: The system cannot find the path specified), client: 192.168.1.102, server: localhost, request: "GET /history/history.css HTTP/1.1", host: "192.168.1.102:81", referrer: "http://192.168.1.102:81/index.html"
+2018/06/04 17:01:53 [error] 14752#3788: *8 CreateFile() "C:\DT_LiveStreamServer/html/history/history.js" failed (3: The system cannot find the path specified), client: 192.168.1.102, server: localhost, request: "GET /history/history.js HTTP/1.1", host: "192.168.1.102:81", referrer: "http://192.168.1.102:81/index.html"
+2018/06/04 17:02:05 [info] 14752#3788: *9 client closed connection while waiting for request, client: 192.168.1.102, server: 0.0.0.0:81
+2018/06/04 17:02:05 [info] 14752#3788: *10 client closed connection while waiting for request, client: 192.168.1.102, server: 0.0.0.0:81
+2018/06/04 17:02:09 [error] 14752#3788: *7 CreateFile() "C:\DT_LiveStreamServer/temp/hls/123.m3u8" failed (3: The system cannot find the path specified), client: 192.168.1.102, server: localhost, request: "GET /hls/123.m3u8 HTTP/1.1", host: "192.168.1.102:81"
+2018/06/04 17:02:44 [info] 14752#3788: *11 client closed connection while waiting for request, client: 192.168.1.102, server: 0.0.0.0:81
+2018/06/04 17:02:44 [info] 14752#3788: *12 client closed connection while waiting for request, client: 192.168.1.102, server: 0.0.0.0:81
+2018/06/04 17:02:54 [error] 14752#3788: *13 CreateFile() "C:\DT_LiveStreamServer/temp/hls/123.m3u8" failed (3: The system cannot find the path specified), client: 127.0.0.1, server: localhost, request: "GET /hls/123.m3u8 HTTP/1.1", host: "localhost:81"
+2018/06/04 17:03:13 [error] 14752#3788: *17 CreateFile() "C:\DT_LiveStreamServer/temp/hls/123.m3u8" failed (3: The system cannot find the path specified), client: 192.168.1.102, server: localhost, request: "GET /hls/123.m3u8 HTTP/1.1", host: "192.168.1.102:81"
+2018/06/04 17:03:13 [info] 14752#3788: *17 client 192.168.1.102 closed keepalive connection (10054: An existing connection was forcibly closed by the remote host)
+2018/06/04 17:03:13 [error] 14752#3788: *18 CreateFile() "C:\DT_LiveStreamServer/temp/hls/123.m3u8" failed (3: The system cannot find the path specified), client: 192.168.1.102, server: localhost, request: "GET /hls/123.m3u8 HTTP/1.0", host: "192.168.1.102:81"
+2018/06/04 17:03:19 [info] 14752#3788: *14 client closed connection while waiting for request, client: 127.0.0.1, server: 0.0.0.0:81
+2018/06/04 17:03:19 [info] 14752#3788: *16 client closed connection while waiting for request, client: 127.0.0.1, server: 0.0.0.0:81
+2018/06/04 17:03:19 [info] 14752#3788: *15 client closed connection while waiting for request, client: 127.0.0.1, server: 0.0.0.0:81
+2018/06/04 17:03:43 [info] 14752#3788: *1 deleteStream, client: 192.168.1.103, server: 0.0.0.0:1935
+2018/06/04 17:03:43 [info] 14752#3788: *1 disconnect, client: 192.168.1.103, server: 0.0.0.0:1935
+2018/06/04 17:03:43 [info] 14752#3788: *1 deleteStream, client: 192.168.1.103, server: 0.0.0.0:1935
+2018/06/04 17:06:34 [emerg] 8364#14524: "alias" directive is duplicate, "root" directive was specified earlier in C:\DT_LiveStreamServer/conf/nginx.conf:48
+2018/06/04 17:06:54 [emerg] 1784#6320: "alias" directive is duplicate, "root" directive was specified earlier in C:\DT_LiveStreamServer/conf/nginx.conf:48
+2018/06/04 17:07:48 [notice] 13480#8900: signal process started
+2018/06/04 17:07:48 [notice] 8412#4948: exiting
+2018/06/04 17:07:48 [notice] 14752#9984: gracefully shutting down
+2018/06/04 17:07:48 [notice] 14752#16060: exiting
+2018/06/04 17:07:48 [notice] 14752#3788: exiting
+2018/06/04 17:07:48 [notice] 14752#9984: exit
+2018/06/04 17:07:48 [notice] 8412#4948: worker process 14752 exited with code 0
+2018/06/04 17:07:48 [notice] 8412#4948: exit
+2018/06/04 18:27:15 [emerg] 12320#1452: unknown directive "root2" in C:\DT_LiveStreamServer/conf/nginx.conf:43
+2018/06/04 18:40:49 [notice] 15568#15948: using the "select" event method
+2018/06/04 18:40:49 [notice] 15568#15948: nginx/1.13.12
+2018/06/04 18:40:49 [info] 15568#15948: OS: 260200 build:9200, "", suite:300, type:1
+2018/06/04 18:40:49 [notice] 15568#15948: start worker processes
+2018/06/04 18:40:49 [notice] 15568#15948: start worker process 15608
+2018/06/04 18:40:49 [notice] 15608#12000: nginx/1.13.12
+2018/06/04 18:40:49 [info] 15608#12000: OS: 260200 build:9200, "", suite:300, type:1
+2018/06/04 18:40:49 [notice] 15608#12000: create thread 3768
+2018/06/04 18:40:49 [notice] 15608#12000: create thread 4424
+2018/06/04 18:40:49 [notice] 15608#12000: create thread 7636
+2018/06/04 18:42:22 [notice] 16192#10856: signal process started
+2018/06/04 18:42:22 [notice] 15568#15948: exiting
+2018/06/04 18:42:22 [notice] 15608#12000: gracefully shutting down
+2018/06/04 18:42:22 [notice] 15608#4424: exiting
+2018/06/04 18:42:23 [notice] 15608#3768: exiting
+2018/06/04 18:42:23 [notice] 15608#12000: exit
+2018/06/04 18:42:23 [notice] 15568#15948: worker process 15608 exited with code 0
+2018/06/04 18:42:23 [notice] 15568#15948: exit
+2018/06/04 18:42:38 [notice] 6636#5396: using the "select" event method
+2018/06/04 18:42:38 [notice] 6636#5396: nginx/1.13.12
+2018/06/04 18:42:38 [info] 6636#5396: OS: 260200 build:9200, "", suite:300, type:1
+2018/06/04 18:42:38 [notice] 6636#5396: start worker processes
+2018/06/04 18:42:38 [notice] 6636#5396: start worker process 10676
+2018/06/04 18:42:38 [notice] 10676#9680: nginx/1.13.12
+2018/06/04 18:42:38 [info] 10676#9680: OS: 260200 build:9200, "", suite:300, type:1
+2018/06/04 18:42:38 [notice] 10676#9680: create thread 2724
+2018/06/04 18:42:38 [notice] 10676#9680: create thread 1172
+2018/06/04 18:42:38 [notice] 10676#9680: create thread 2644
+2018/06/04 18:43:11 [info] 10676#2724: *1 client connected '192.168.1.103'
+2018/06/04 18:43:11 [info] 10676#2724: *1 connect: app='hls' args='' flashver='' swf_url='' tc_url='rtmp://192.168.1.102/hls' page_url='' acodecs=0 vcodecs=0 object_encoding=0, client: 192.168.1.103, server: 0.0.0.0:1935
+2018/06/04 18:43:11 [info] 10676#2724: *1 createStream, client: 192.168.1.103, server: 0.0.0.0:1935
+2018/06/04 18:43:11 [info] 10676#2724: *1 publish: name='123' args='' type=live silent=0, client: 192.168.1.103, server: 0.0.0.0:1935
+2018/06/04 18:43:49 [error] 10676#2724: *2 CreateFile() "C:\DT_LiveStreamServer/html/history/history.css" failed (3: The system cannot find the path specified), client: 127.0.0.1, server: localhost, request: "GET /history/history.css HTTP/1.1", host: "localhost:81", referrer: "http://localhost:81/"
+2018/06/04 18:43:49 [error] 10676#2724: *2 CreateFile() "C:\DT_LiveStreamServer/html/history/history.js" failed (3: The system cannot find the path specified), client: 127.0.0.1, server: localhost, request: "GET /history/history.js HTTP/1.1", host: "localhost:81", referrer: "http://localhost:81/"
+2018/06/04 18:44:02 [info] 10676#2724: *3 client closed connection while waiting for request, client: 127.0.0.1, server: 0.0.0.0:81
+2018/06/04 18:44:11 [error] 10676#2724: *2 CreateFile() "C:\DT_LiveStreamServer/html/history/history.css" failed (3: The system cannot find the path specified), client: 127.0.0.1, server: localhost, request: "GET /history/history.css HTTP/1.1", host: "localhost:81", referrer: "http://localhost:81/index.html"
+2018/06/04 18:44:11 [error] 10676#2724: *2 CreateFile() "C:\DT_LiveStreamServer/html/history/history.js" failed (3: The system cannot find the path specified), client: 127.0.0.1, server: localhost, request: "GET /history/history.js HTTP/1.1", host: "localhost:81", referrer: "http://localhost:81/index.html"
+2018/06/04 18:45:44 [error] 10676#2724: *4 CreateFile() "C:\DT_LiveStreamServer/temp/hls/123.m3u8" failed (3: The system cannot find the path specified), client: 127.0.0.1, server: localhost, request: "GET /hls/123.m3u8 HTTP/1.1", host: "localhost:81"
+2018/06/04 18:45:53 [error] 10676#2724: *4 CreateFile() "C:\DT_LiveStreamServer/temp/hls/123.m3u8" failed (3: The system cannot find the path specified), client: 127.0.0.1, server: localhost, request: "GET /hls/123.m3u8 HTTP/1.1", host: "localhost:81"
+2018/06/04 18:45:58 [info] 10676#2724: *5 client closed connection while waiting for request, client: 127.0.0.1, server: 0.0.0.0:81
+2018/06/04 18:46:08 [error] 10676#2724: *4 CreateFile() "C:\DT_LiveStreamServer/html/temp/hls/123.m3u8" failed (3: The system cannot find the path specified), client: 127.0.0.1, server: localhost, request: "GET /temp/hls/123.m3u8 HTTP/1.1", host: "localhost:81"
+2018/06/04 18:46:08 [info] 10676#2724: *6 client closed connection while waiting for request, client: 127.0.0.1, server: 0.0.0.0:81
+2018/06/04 18:46:15 [error] 10676#2724: *4 CreateFile() "C:\DT_LiveStreamServer/temp/hls/123.m3u8" failed (3: The system cannot find the path specified), client: 127.0.0.1, server: localhost, request: "GET /hls/123.m3u8 HTTP/1.1", host: "localhost:81"
+2018/06/04 18:46:20 [info] 10676#2724: *7 client closed connection while waiting for request, client: 127.0.0.1, server: 0.0.0.0:81
+2018/06/04 18:46:20 [info] 10676#2724: *8 client closed connection while waiting for request, client: 127.0.0.1, server: 0.0.0.0:81
+2018/06/04 18:46:23 [error] 10676#2724: *9 CreateFile() "C:\DT_LiveStreamServer/temp/hls/123.m3u8" failed (3: The system cannot find the path specified), client: 192.168.1.102, server: localhost, request: "GET /hls/123.m3u8 HTTP/1.1", host: "192.168.1.102:81"
+2018/06/04 18:46:27 [error] 10676#2724: *9 CreateFile() "C:\DT_LiveStreamServer/html/history/history.css" failed (3: The system cannot find the path specified), client: 192.168.1.102, server: localhost, request: "GET /history/history.css HTTP/1.1", host: "192.168.1.102:81", referrer: "http://192.168.1.102:81/"
+2018/06/04 18:46:27 [error] 10676#2724: *9 CreateFile() "C:\DT_LiveStreamServer/html/history/history.js" failed (3: The system cannot find the path specified), client: 192.168.1.102, server: localhost, request: "GET /history/history.js HTTP/1.1", host: "192.168.1.102:81", referrer: "http://192.168.1.102:81/"
+2018/06/04 18:46:44 [info] 10676#2724: *10 client closed connection while waiting for request, client: 192.168.1.102, server: 0.0.0.0:81
+2018/06/04 18:46:44 [info] 10676#2724: *11 client closed connection while waiting for request, client: 192.168.1.102, server: 0.0.0.0:81
+2018/06/04 18:46:54 [error] 10676#2724: *9 CreateFile() "C:\DT_LiveStreamServer/temp/hls" failed (2: The system cannot find the file specified), client: 192.168.1.102, server: localhost, request: "GET /hls HTTP/1.1", host: "192.168.1.102:81"
+2018/06/04 18:46:55 [info] 10676#2724: *12 client closed connection while waiting for request, client: 192.168.1.102, server: 0.0.0.0:81
+2018/06/04 18:46:55 [info] 10676#2724: *13 client closed connection while waiting for request, client: 192.168.1.102, server: 0.0.0.0:81
+2018/06/04 18:47:08 [error] 10676#2724: *9 CreateFile() "C:\DT_LiveStreamServer/html/history/history.css" failed (3: The system cannot find the path specified), client: 192.168.1.102, server: localhost, request: "GET /history/history.css HTTP/1.1", host: "192.168.1.102:81", referrer: "http://192.168.1.102:81/"
+2018/06/04 18:47:08 [error] 10676#2724: *14 CreateFile() "C:\DT_LiveStreamServer/html/history/history.js" failed (3: The system cannot find the path specified), client: 192.168.1.102, server: localhost, request: "GET /history/history.js HTTP/1.1", host: "192.168.1.102:81", referrer: "http://192.168.1.102:81/"
+2018/06/04 18:48:27 [error] 10676#2724: *15 CreateFile() "C:\DT_LiveStreamServer/temp/hls/123.m3u8" failed (3: The system cannot find the path specified), client: 192.168.1.102, server: localhost, request: "GET /hls/123.m3u8 HTTP/1.1", host: "192.168.1.102:81"
+2018/06/04 18:48:27 [info] 10676#2724: *15 client 192.168.1.102 closed keepalive connection (10054: An existing connection was forcibly closed by the remote host)
+2018/06/04 18:48:27 [error] 10676#2724: *16 CreateFile() "C:\DT_LiveStreamServer/temp/hls/123.m3u8" failed (3: The system cannot find the path specified), client: 192.168.1.102, server: localhost, request: "GET /hls/123.m3u8 HTTP/1.0", host: "192.168.1.102:81"
+2018/06/04 18:48:42 [error] 10676#2724: *17 CreateFile() "C:\DT_LiveStreamServer/temp/hls/123.m3u8" failed (3: The system cannot find the path specified), client: 192.168.1.102, server: localhost, request: "GET /hls/123.m3u8 HTTP/1.1", host: "192.168.1.102:81"
+2018/06/04 18:48:42 [info] 10676#2724: *17 client 192.168.1.102 closed keepalive connection (10054: An existing connection was forcibly closed by the remote host)
+2018/06/04 18:48:42 [error] 10676#2724: *18 CreateFile() "C:\DT_LiveStreamServer/temp/hls/123.m3u8" failed (3: The system cannot find the path specified), client: 192.168.1.102, server: localhost, request: "GET /hls/123.m3u8 HTTP/1.0", host: "192.168.1.102:81"
+2018/06/04 18:48:53 [info] 10676#2724: *19 client connected '192.168.1.102'
+2018/06/04 18:48:53 [info] 10676#2724: *19 connect: app='hls' args='' flashver='LNX 9,0,124,2' swf_url='' tc_url='rtmp://192.168.1.102:1935/hls' page_url='' acodecs=4071 vcodecs=252 object_encoding=0, client: 192.168.1.102, server: 0.0.0.0:1935
+2018/06/04 18:48:53 [info] 10676#2724: *19 createStream, client: 192.168.1.102, server: 0.0.0.0:1935
+2018/06/04 18:48:53 [info] 10676#2724: *19 play: name='123' args='' start=-2000 duration=0 reset=0 silent=0, client: 192.168.1.102, server: 0.0.0.0:1935
+2018/06/04 18:49:21 [info] 10676#2724: *19 WSARecv() failed (10054: An existing connection was forcibly closed by the remote host), client: 192.168.1.102, server: 0.0.0.0:1935
+2018/06/04 18:49:21 [info] 10676#2724: *19 disconnect, client: 192.168.1.102, server: 0.0.0.0:1935
+2018/06/04 18:49:21 [info] 10676#2724: *19 deleteStream, client: 192.168.1.102, server: 0.0.0.0:1935
+2018/06/04 18:49:21 [error] 10676#2724: *20 CreateFile() "C:\DT_LiveStreamServer/temp/hls/123.m3u8" failed (3: The system cannot find the path specified), client: 192.168.1.102, server: localhost, request: "GET /hls/123.m3u8 HTTP/1.1", host: "192.168.1.102:81"
+2018/06/04 18:49:21 [info] 10676#2724: *20 client 192.168.1.102 closed keepalive connection (10054: An existing connection was forcibly closed by the remote host)
+2018/06/04 18:49:21 [error] 10676#2724: *21 CreateFile() "C:\DT_LiveStreamServer/temp/hls/123.m3u8" failed (3: The system cannot find the path specified), client: 192.168.1.102, server: localhost, request: "GET /hls/123.m3u8 HTTP/1.0", host: "192.168.1.102:81"
+2018/06/04 18:49:23 [error] 10676#2724: *22 CreateFile() "C:\DT_LiveStreamServer/temp/hls/123.m3u8" failed (3: The system cannot find the path specified), client: 192.168.1.102, server: localhost, request: "GET /hls/123.m3u8 HTTP/1.1", host: "192.168.1.102:81"
+2018/06/04 18:49:23 [info] 10676#2724: *22 client 192.168.1.102 closed keepalive connection (10054: An existing connection was forcibly closed by the remote host)
+2018/06/04 18:49:23 [error] 10676#2724: *23 CreateFile() "C:\DT_LiveStreamServer/temp/hls/123.m3u8" failed (3: The system cannot find the path specified), client: 192.168.1.102, server: localhost, request: "GET /hls/123.m3u8 HTTP/1.0", host: "192.168.1.102:81"
+2018/06/04 18:49:24 [error] 10676#2724: *24 CreateFile() "C:\DT_LiveStreamServer/temp/hls/123.m3u8" failed (3: The system cannot find the path specified), client: 192.168.1.102, server: localhost, request: "GET /hls/123.m3u8 HTTP/1.1", host: "192.168.1.102:81"
+2018/06/04 18:49:24 [info] 10676#2724: *24 client 192.168.1.102 closed keepalive connection (10054: An existing connection was forcibly closed by the remote host)
+2018/06/04 18:49:24 [error] 10676#2724: *25 CreateFile() "C:\DT_LiveStreamServer/temp/hls/123.m3u8" failed (3: The system cannot find the path specified), client: 192.168.1.102, server: localhost, request: "GET /hls/123.m3u8 HTTP/1.0", host: "192.168.1.102:81"
+2018/06/04 18:49:24 [error] 10676#2724: *26 CreateFile() "C:\DT_LiveStreamServer/temp/hls/123.m3u8" failed (3: The system cannot find the path specified), client: 192.168.1.102, server: localhost, request: "GET /hls/123.m3u8 HTTP/1.1", host: "192.168.1.102:81"
+2018/06/04 18:49:24 [info] 10676#2724: *26 client 192.168.1.102 closed keepalive connection (10054: An existing connection was forcibly closed by the remote host)
+2018/06/04 18:49:24 [error] 10676#2724: *27 CreateFile() "C:\DT_LiveStreamServer/temp/hls/123.m3u8" failed (3: The system cannot find the path specified), client: 192.168.1.102, server: localhost, request: "GET /hls/123.m3u8 HTTP/1.0", host: "192.168.1.102:81"
+2018/06/04 18:49:25 [error] 10676#2724: *28 CreateFile() "C:\DT_LiveStreamServer/temp/hls/123.m3u8" failed (3: The system cannot find the path specified), client: 192.168.1.102, server: localhost, request: "GET /hls/123.m3u8 HTTP/1.1", host: "192.168.1.102:81"
+2018/06/04 18:49:25 [info] 10676#2724: *28 client 192.168.1.102 closed keepalive connection (10054: An existing connection was forcibly closed by the remote host)
+2018/06/04 18:49:25 [error] 10676#2724: *29 CreateFile() "C:\DT_LiveStreamServer/temp/hls/123.m3u8" failed (3: The system cannot find the path specified), client: 192.168.1.102, server: localhost, request: "GET /hls/123.m3u8 HTTP/1.0", host: "192.168.1.102:81"
+2018/06/04 18:49:25 [error] 10676#2724: *30 CreateFile() "C:\DT_LiveStreamServer/temp/hls/123.m3u8" failed (3: The system cannot find the path specified), client: 192.168.1.102, server: localhost, request: "GET /hls/123.m3u8 HTTP/1.1", host: "192.168.1.102:81"
+2018/06/04 18:49:25 [info] 10676#2724: *30 client 192.168.1.102 closed keepalive connection (10054: An existing connection was forcibly closed by the remote host)
+2018/06/04 18:49:25 [error] 10676#2724: *31 CreateFile() "C:\DT_LiveStreamServer/temp/hls/123.m3u8" failed (3: The system cannot find the path specified), client: 192.168.1.102, server: localhost, request: "GET /hls/123.m3u8 HTTP/1.0", host: "192.168.1.102:81"
+2018/06/04 18:49:25 [error] 10676#2724: *32 CreateFile() "C:\DT_LiveStreamServer/temp/hls/123.m3u8" failed (3: The system cannot find the path specified), client: 192.168.1.102, server: localhost, request: "GET /hls/123.m3u8 HTTP/1.1", host: "192.168.1.102:81"
+2018/06/04 18:49:25 [info] 10676#2724: *32 client 192.168.1.102 closed keepalive connection (10054: An existing connection was forcibly closed by the remote host)
+2018/06/04 18:49:25 [error] 10676#2724: *33 CreateFile() "C:\DT_LiveStreamServer/temp/hls/123.m3u8" failed (3: The system cannot find the path specified), client: 192.168.1.102, server: localhost, request: "GET /hls/123.m3u8 HTTP/1.0", host: "192.168.1.102:81"
+2018/06/04 18:49:25 [error] 10676#2724: *34 CreateFile() "C:\DT_LiveStreamServer/temp/hls/123.m3u8" failed (3: The system cannot find the path specified), client: 192.168.1.102, server: localhost, request: "GET /hls/123.m3u8 HTTP/1.1", host: "192.168.1.102:81"
+2018/06/04 18:49:25 [info] 10676#2724: *34 client 192.168.1.102 closed keepalive connection (10054: An existing connection was forcibly closed by the remote host)
+2018/06/04 18:49:25 [error] 10676#2724: *35 CreateFile() "C:\DT_LiveStreamServer/temp/hls/123.m3u8" failed (3: The system cannot find the path specified), client: 192.168.1.102, server: localhost, request: "GET /hls/123.m3u8 HTTP/1.0", host: "192.168.1.102:81"
+2018/06/04 18:49:25 [error] 10676#2724: *36 CreateFile() "C:\DT_LiveStreamServer/temp/hls/123.m3u8" failed (3: The system cannot find the path specified), client: 192.168.1.102, server: localhost, request: "GET /hls/123.m3u8 HTTP/1.1", host: "192.168.1.102:81"
+2018/06/04 18:49:25 [info] 10676#2724: *36 client 192.168.1.102 closed keepalive connection (10054: An existing connection was forcibly closed by the remote host)
+2018/06/04 18:49:25 [error] 10676#2724: *37 CreateFile() "C:\DT_LiveStreamServer/temp/hls/123.m3u8" failed (3: The system cannot find the path specified), client: 192.168.1.102, server: localhost, request: "GET /hls/123.m3u8 HTTP/1.0", host: "192.168.1.102:81"
+2018/06/04 18:49:26 [error] 10676#2724: *38 CreateFile() "C:\DT_LiveStreamServer/temp/hls/123.m3u8" failed (3: The system cannot find the path specified), client: 192.168.1.102, server: localhost, request: "GET /hls/123.m3u8 HTTP/1.1", host: "192.168.1.102:81"
+2018/06/04 18:49:26 [info] 10676#2724: *38 client 192.168.1.102 closed keepalive connection (10054: An existing connection was forcibly closed by the remote host)
+2018/06/04 18:49:26 [error] 10676#2724: *39 CreateFile() "C:\DT_LiveStreamServer/temp/hls/123.m3u8" failed (3: The system cannot find the path specified), client: 192.168.1.102, server: localhost, request: "GET /hls/123.m3u8 HTTP/1.0", host: "192.168.1.102:81"
+2018/06/04 18:49:26 [error] 10676#2724: *40 CreateFile() "C:\DT_LiveStreamServer/temp/hls/123.m3u8" failed (3: The system cannot find the path specified), client: 192.168.1.102, server: localhost, request: "GET /hls/123.m3u8 HTTP/1.1", host: "192.168.1.102:81"
+2018/06/04 18:49:26 [info] 10676#2724: *40 client 192.168.1.102 closed keepalive connection (10054: An existing connection was forcibly closed by the remote host)
+2018/06/04 18:49:26 [error] 10676#2724: *41 CreateFile() "C:\DT_LiveStreamServer/temp/hls/123.m3u8" failed (3: The system cannot find the path specified), client: 192.168.1.102, server: localhost, request: "GET /hls/123.m3u8 HTTP/1.0", host: "192.168.1.102:81"
+2018/06/04 18:49:27 [error] 10676#2724: *42 CreateFile() "C:\DT_LiveStreamServer/temp/hls/123.m3u8" failed (3: The system cannot find the path specified), client: 192.168.1.102, server: localhost, request: "GET /hls/123.m3u8 HTTP/1.1", host: "192.168.1.102:81"
+2018/06/04 18:49:27 [info] 10676#2724: *42 client 192.168.1.102 closed keepalive connection (10054: An existing connection was forcibly closed by the remote host)
+2018/06/04 18:49:27 [error] 10676#2724: *43 CreateFile() "C:\DT_LiveStreamServer/temp/hls/123.m3u8" failed (3: The system cannot find the path specified), client: 192.168.1.102, server: localhost, request: "GET /hls/123.m3u8 HTTP/1.0", host: "192.168.1.102:81"
+2018/06/04 18:49:27 [error] 10676#2724: *44 CreateFile() "C:\DT_LiveStreamServer/temp/hls/123.m3u8" failed (3: The system cannot find the path specified), client: 192.168.1.102, server: localhost, request: "GET /hls/123.m3u8 HTTP/1.1", host: "192.168.1.102:81"
+2018/06/04 18:49:27 [info] 10676#2724: *44 client 192.168.1.102 closed keepalive connection (10054: An existing connection was forcibly closed by the remote host)
+2018/06/04 18:49:27 [error] 10676#2724: *45 CreateFile() "C:\DT_LiveStreamServer/temp/hls/123.m3u8" failed (3: The system cannot find the path specified), client: 192.168.1.102, server: localhost, request: "GET /hls/123.m3u8 HTTP/1.0", host: "192.168.1.102:81"
+2018/06/04 18:49:29 [error] 10676#2724: *46 CreateFile() "C:\DT_LiveStreamServer/temp/hls/123.m3u8" failed (3: The system cannot find the path specified), client: 192.168.1.102, server: localhost, request: "GET /hls/123.m3u8 HTTP/1.1", host: "192.168.1.102:81"
+2018/06/04 18:49:29 [info] 10676#2724: *46 client 192.168.1.102 closed keepalive connection (10054: An existing connection was forcibly closed by the remote host)
+2018/06/04 18:49:29 [error] 10676#2724: *47 CreateFile() "C:\DT_LiveStreamServer/temp/hls/123.m3u8" failed (3: The system cannot find the path specified), client: 192.168.1.102, server: localhost, request: "GET /hls/123.m3u8 HTTP/1.0", host: "192.168.1.102:81"
+2018/06/04 18:49:30 [error] 10676#2724: *48 CreateFile() "C:\DT_LiveStreamServer/temp/hls/123.m3u8" failed (3: The system cannot find the path specified), client: 192.168.1.102, server: localhost, request: "GET /hls/123.m3u8 HTTP/1.1", host: "192.168.1.102:81"
+2018/06/04 18:49:30 [info] 10676#2724: *48 client 192.168.1.102 closed keepalive connection (10054: An existing connection was forcibly closed by the remote host)
+2018/06/04 18:49:30 [error] 10676#2724: *49 CreateFile() "C:\DT_LiveStreamServer/temp/hls/123.m3u8" failed (3: The system cannot find the path specified), client: 192.168.1.102, server: localhost, request: "GET /hls/123.m3u8 HTTP/1.0", host: "192.168.1.102:81"
+2018/06/04 18:50:42 [info] 10676#2724: *1 deleteStream, client: 192.168.1.103, server: 0.0.0.0:1935
+2018/06/04 18:50:42 [info] 10676#2724: *1 disconnect, client: 192.168.1.103, server: 0.0.0.0:1935
+2018/06/04 18:50:42 [info] 10676#2724: *1 deleteStream, client: 192.168.1.103, server: 0.0.0.0:1935
+2018/06/04 18:50:52 [notice] 10156#9084: signal process started
+2018/06/04 18:50:52 [notice] 6636#5396: exiting
+2018/06/04 18:50:52 [notice] 10676#9680: gracefully shutting down
+2018/06/04 18:50:52 [notice] 10676#1172: exiting
+2018/06/04 18:50:52 [notice] 10676#2724: exiting
+2018/06/04 18:50:52 [notice] 10676#9680: exit
+2018/06/04 18:50:52 [notice] 6636#5396: worker process 10676 exited with code 0
+2018/06/04 18:50:52 [notice] 6636#5396: exit
+2018/06/04 18:52:13 [notice] 2776#12360: using the "select" event method
+2018/06/04 18:52:13 [notice] 2776#12360: nginx/1.13.12
+2018/06/04 18:52:13 [info] 2776#12360: OS: 260200 build:9200, "", suite:300, type:1
+2018/06/04 18:52:13 [notice] 2776#12360: start worker processes
+2018/06/04 18:52:13 [notice] 2776#12360: start worker process 4332
+2018/06/04 18:52:13 [notice] 4332#1644: nginx/1.13.12
+2018/06/04 18:52:13 [info] 4332#1644: OS: 260200 build:9200, "", suite:300, type:1
+2018/06/04 18:52:13 [notice] 4332#1644: create thread 11048
+2018/06/04 18:52:13 [notice] 4332#1644: create thread 13412
+2018/06/04 18:52:13 [notice] 4332#1644: create thread 10080
+2018/06/04 18:52:27 [info] 4332#11048: *1 client connected '192.168.1.103'
+2018/06/04 18:52:27 [info] 4332#11048: *1 connect: app='hls' args='' flashver='' swf_url='' tc_url='rtmp://192.168.1.102/hls' page_url='' acodecs=0 vcodecs=0 object_encoding=0, client: 192.168.1.103, server: 0.0.0.0:1935
+2018/06/04 18:52:27 [info] 4332#11048: *1 createStream, client: 192.168.1.103, server: 0.0.0.0:1935
+2018/06/04 18:52:27 [info] 4332#11048: *1 publish: name='123' args='' type=live silent=0, client: 192.168.1.103, server: 0.0.0.0:1935
+2018/06/04 18:52:27 [error] 4332#11048: *1 hls: force fragment split: -449.097 sec, , client: 192.168.1.103, server: 0.0.0.0:1935
+2018/06/04 18:53:41 [error] 4332#11048: *2 CreateFile() "C:/tmp/hls/123.m3u8" failed (3: The system cannot find the path specified), client: 127.0.0.1, server: localhost, request: "GET /hls/hls/123.m3u8 HTTP/1.1", host: "localhost:81"
+2018/06/04 18:53:50 [error] 4332#11048: *2 CreateFile() "C:/tmp/hls/123.m3u8" failed (3: The system cannot find the path specified), client: 127.0.0.1, server: localhost, request: "GET /hls/hls/123.m3u8 HTTP/1.1", host: "localhost:81"
+2018/06/04 18:53:54 [info] 4332#11048: *3 client closed connection while waiting for request, client: 127.0.0.1, server: 0.0.0.0:81
+2018/06/04 18:53:59 [error] 4332#11048: *2 CreateFile() "C:/tmp/123.m3u8" failed (3: The system cannot find the path specified), client: 127.0.0.1, server: localhost, request: "GET /hls/123.m3u8 HTTP/1.1", host: "localhost:81"
+2018/06/04 18:54:01 [error] 4332#11048: *2 CreateFile() "C:/tmp/123.m3u8" failed (3: The system cannot find the path specified), client: 127.0.0.1, server: localhost, request: "GET /hls/123.m3u8 HTTP/1.1", host: "localhost:81"
+2018/06/04 18:54:08 [error] 4332#11048: *2 CreateFile() "C:/tmp/123.m3u8" failed (3: The system cannot find the path specified), client: 127.0.0.1, server: localhost, request: "GET /hls/123.m3u8 HTTP/1.1", host: "localhost:81"
+2018/06/04 18:54:32 [error] 4332#11048: *2 CreateFile() "C:/tmp/tmp/hls/123.m3u8" failed (3: The system cannot find the path specified), client: 127.0.0.1, server: localhost, request: "GET /hls/tmp/hls/123.m3u8 HTTP/1.1", host: "localhost:81"
+2018/06/04 18:54:40 [error] 4332#11048: *2 CreateFile() "C:/tmp/tmp/hls/123.m3u8" failed (3: The system cannot find the path specified), client: 127.0.0.1, server: localhost, request: "GET /hls/tmp/hls/123.m3u8 HTTP/1.1", host: "localhost:81"
+2018/06/04 18:55:26 [error] 4332#11048: *2 CreateFile() "C:/tmp/tmp/hls/1234.m3u8" failed (3: The system cannot find the path specified), client: 127.0.0.1, server: localhost, request: "GET /hls/tmp/hls/1234.m3u8 HTTP/1.1", host: "localhost:81"
+2018/06/04 18:56:40 [error] 4332#11048: *2 CreateFile() "C:/tmp/DT_LiveStreamServer/tmp/hls/123.m3u8" failed (3: The system cannot find the path specified), client: 127.0.0.1, server: localhost, request: "GET /hls/DT_LiveStreamServer/tmp/hls/123.m3u8 HTTP/1.1", host: "localhost:81"
+2018/06/04 18:57:30 [error] 4332#11048: *2 CreateFile() "C:/tmp/DT_LiveStreamServer/tmp/hls/123.m3u8" failed (3: The system cannot find the path specified), client: 127.0.0.1, server: localhost, request: "GET /hls/DT_LiveStreamServer/tmp/hls/123.m3u8 HTTP/1.1", host: "localhost:81"
+2018/06/04 18:57:44 [error] 4332#11048: *2 CreateFile() "C:/tmp/DT_LiveStreamServer/tmp/hls/123.m3u8" failed (3: The system cannot find the path specified), client: 127.0.0.1, server: localhost, request: "GET /hls/DT_LiveStreamServer/tmp/hls/123.m3u8 HTTP/1.1", host: "localhost:81"
+2018/06/04 18:57:57 [notice] 2384#14580: signal process started
+2018/06/04 18:57:57 [notice] 2776#12360: exiting
+2018/06/04 18:57:57 [notice] 4332#1644: gracefully shutting down
+2018/06/04 18:57:57 [notice] 4332#13412: exiting
+2018/06/04 18:58:01 [notice] 5156#248: using the "select" event method
+2018/06/04 18:58:01 [notice] 5156#248: nginx/1.13.12
+2018/06/04 18:58:01 [info] 5156#248: OS: 260200 build:9200, "", suite:300, type:1
+2018/06/04 18:58:01 [notice] 5156#248: start worker processes
+2018/06/04 18:58:01 [notice] 5156#248: start worker process 3228
+2018/06/04 18:58:01 [notice] 3228#232: nginx/1.13.12
+2018/06/04 18:58:01 [info] 3228#232: OS: 260200 build:9200, "", suite:300, type:1
+2018/06/04 18:58:01 [notice] 3228#232: create thread 8320
+2018/06/04 18:58:01 [notice] 3228#232: create thread 5712
+2018/06/04 18:58:01 [notice] 3228#232: create thread 15764
+2018/06/04 18:58:02 [notice] 2776#12360: exit
+2018/06/04 18:58:13 [info] 3228#8320: *1 client connected '192.168.1.103'
+2018/06/04 18:58:13 [info] 3228#8320: *1 connect: app='hls' args='' flashver='' swf_url='' tc_url='rtmp://192.168.1.102/hls' page_url='' acodecs=0 vcodecs=0 object_encoding=0, client: 192.168.1.103, server: 0.0.0.0:1935
+2018/06/04 18:58:13 [info] 3228#8320: *1 createStream, client: 192.168.1.103, server: 0.0.0.0:1935
+2018/06/04 18:58:13 [info] 3228#8320: *1 publish: name='123' args='' type=live silent=0, client: 192.168.1.103, server: 0.0.0.0:1935
+2018/06/04 18:58:17 [error] 3228#8320: *2 CreateFile() "C:/DT_LiveStreamServer/tmp/DT_LiveStreamServer/tmp/hls/123.m3u8" failed (3: The system cannot find the path specified), client: 127.0.0.1, server: localhost, request: "GET /hls/DT_LiveStreamServer/tmp/hls/123.m3u8 HTTP/1.1", host: "localhost:81"
+2018/06/04 18:58:55 [info] 3228#8320: *3 client closed connection while waiting for request, client: 127.0.0.1, server: 0.0.0.0:81
+2018/06/04 18:58:56 [error] 3228#8320: *2 CreateFile() "C:/DT_LiveStreamServer/tmp/123.m3u8" failed (2: The system cannot find the file specified), client: 127.0.0.1, server: localhost, request: "GET /hls/123.m3u8 HTTP/1.1", host: "localhost:81"
+2018/06/04 19:01:09 [info] 3228#8320: *6 client 127.0.0.1 closed keepalive connection
+2018/06/04 19:01:25 [info] 3228#8320: *7 client 127.0.0.1 closed keepalive connection
+2018/06/04 19:01:36 [info] 3228#8320: *8 client 127.0.0.1 closed keepalive connection
+2018/06/04 19:01:43 [info] 3228#8320: *9 client 127.0.0.1 closed keepalive connection
+2018/06/04 19:01:44 [info] 3228#8320: *5 client 127.0.0.1 closed keepalive connection
+2018/06/04 19:01:44 [info] 3228#8320: *4 client 127.0.0.1 closed keepalive connection
+2018/06/04 19:03:43 [info] 3228#8320: *12 client 127.0.0.1 closed keepalive connection
+2018/06/04 19:03:59 [info] 3228#8320: *13 client 127.0.0.1 closed keepalive connection
+2018/06/04 19:04:10 [info] 3228#8320: *14 client 127.0.0.1 closed keepalive connection
+2018/06/04 19:04:17 [info] 3228#8320: *15 client 127.0.0.1 closed keepalive connection
+2018/06/04 19:04:17 [info] 3228#8320: *11 client 127.0.0.1 closed keepalive connection
+2018/06/04 19:04:17 [info] 3228#8320: *10 client 127.0.0.1 closed keepalive connection
+2018/06/04 19:09:02 [info] 3228#8320: *18 client 127.0.0.1 closed keepalive connection
+2018/06/04 19:09:03 [info] 3228#8320: *19 client sent invalid header line: "GetContentFeatures.DLNA.ORG: 1" while reading client request headers, client: 127.0.0.1, server: localhost, request: "GET /hls/hls/123.m3u8 HTTP/1.1", referrer: "file:///C:/DT_LiveStreamServer/Pages/index.html"
+2018/06/04 19:09:03 [info] 3228#8320: *20 client sent invalid header line: "GetContentFeatures.DLNA.ORG: 1" while reading client request headers, client: 127.0.0.1, server: localhost, request: "GET /hls/hls/123.m3u8 HTTP/1.1", referrer: "file:///C:/DT_LiveStreamServer/Pages/index.html"
+2018/06/04 19:09:18 [info] 3228#8320: *21 client 127.0.0.1 closed keepalive connection
+2018/06/04 19:09:21 [info] 3228#8320: *19 client 127.0.0.1 closed keepalive connection (10054: An existing connection was forcibly closed by the remote host)
+2018/06/04 19:09:21 [info] 3228#8320: *20 client 127.0.0.1 closed keepalive connection (10054: An existing connection was forcibly closed by the remote host)
+2018/06/04 19:09:29 [info] 3228#8320: *22 client 127.0.0.1 closed keepalive connection
+2018/06/04 19:09:36 [info] 3228#8320: *23 client 127.0.0.1 closed keepalive connection
+2018/06/04 19:09:42 [info] 3228#8320: *24 client 127.0.0.1 closed keepalive connection
+2018/06/04 19:09:48 [info] 3228#8320: *25 client 127.0.0.1 closed keepalive connection
+2018/06/04 19:09:54 [info] 3228#8320: *28 client 127.0.0.1 closed keepalive connection
+2018/06/04 19:10:00 [info] 3228#8320: *29 client 127.0.0.1 closed keepalive connection
+2018/06/04 19:10:06 [info] 3228#8320: *30 client 127.0.0.1 closed keepalive connection
+2018/06/04 19:10:12 [info] 3228#8320: *31 client 127.0.0.1 closed keepalive connection
+2018/06/04 19:10:18 [info] 3228#8320: *32 client 127.0.0.1 closed keepalive connection
+2018/06/04 19:10:19 [info] 3228#8320: *27 client closed connection while waiting for request, client: 127.0.0.1, server: 0.0.0.0:81
+2018/06/04 19:10:24 [info] 3228#8320: *33 client 127.0.0.1 closed keepalive connection
+2018/06/04 19:10:30 [info] 3228#8320: *34 client 127.0.0.1 closed keepalive connection
+2018/06/04 19:10:36 [info] 3228#8320: *35 client 127.0.0.1 closed keepalive connection
+2018/06/04 19:10:42 [info] 3228#8320: *36 client 127.0.0.1 closed keepalive connection
+2018/06/04 19:10:48 [info] 3228#8320: *37 client 127.0.0.1 closed keepalive connection
+2018/06/04 19:10:54 [info] 3228#8320: *38 client 127.0.0.1 closed keepalive connection
+2018/06/04 19:11:00 [info] 3228#8320: *39 client 127.0.0.1 closed keepalive connection
+2018/06/04 19:11:06 [info] 3228#8320: *40 client 127.0.0.1 closed keepalive connection
+2018/06/04 19:11:12 [info] 3228#8320: *41 client 127.0.0.1 closed keepalive connection
+2018/06/04 19:11:18 [info] 3228#8320: *42 client 127.0.0.1 closed keepalive connection
+2018/06/04 19:11:24 [info] 3228#8320: *43 client 127.0.0.1 closed keepalive connection
+2018/06/04 19:11:30 [info] 3228#8320: *44 client 127.0.0.1 closed keepalive connection
+2018/06/04 19:11:36 [info] 3228#8320: *45 client 127.0.0.1 closed keepalive connection
+2018/06/04 19:11:42 [info] 3228#8320: *46 client 127.0.0.1 closed keepalive connection
+2018/06/04 19:11:48 [info] 3228#8320: *47 client 127.0.0.1 closed keepalive connection
+2018/06/04 19:11:54 [info] 3228#8320: *48 client 127.0.0.1 closed keepalive connection
+2018/06/04 19:12:00 [info] 3228#8320: *49 client 127.0.0.1 closed keepalive connection
+2018/06/04 19:12:06 [info] 3228#8320: *52 client 127.0.0.1 closed keepalive connection
+2018/06/04 19:12:12 [info] 3228#8320: *53 client 127.0.0.1 closed keepalive connection
+2018/06/04 19:12:18 [info] 3228#8320: *54 client 127.0.0.1 closed keepalive connection
+2018/06/04 19:12:24 [info] 3228#8320: *55 client 127.0.0.1 closed keepalive connection
+2018/06/04 19:12:30 [info] 3228#8320: *56 client 127.0.0.1 closed keepalive connection
+2018/06/04 19:12:36 [info] 3228#8320: *57 client 127.0.0.1 closed keepalive connection
+2018/06/04 19:12:42 [info] 3228#8320: *58 client 127.0.0.1 closed keepalive connection
+2018/06/04 19:12:48 [info] 3228#8320: *59 client 127.0.0.1 closed keepalive connection
+2018/06/04 19:12:54 [info] 3228#8320: *60 client 127.0.0.1 closed keepalive connection
+2018/06/04 19:12:55 [info] 3228#8320: *51 client closed connection while waiting for request, client: 127.0.0.1, server: 0.0.0.0:81
+2018/06/04 19:12:59 [info] 3228#8320: *62 client sent invalid header line: "GetContentFeatures.DLNA.ORG: 1" while reading client request headers, client: 127.0.0.1, server: localhost, request: "GET /hls/hls/123.m3u8 HTTP/1.1", referrer: "file:///C:/DT_LiveStreamServer/Pages/index.html"
+2018/06/04 19:12:59 [info] 3228#8320: *61 client sent invalid header line: "GetContentFeatures.DLNA.ORG: 1" while reading client request headers, client: 127.0.0.1, server: localhost, request: "GET /hls/hls/123.m3u8 HTTP/1.1", referrer: "file:///C:/DT_LiveStreamServer/Pages/index.html"
+2018/06/04 19:13:00 [info] 3228#8320: *63 client 127.0.0.1 closed keepalive connection
+2018/06/04 19:13:06 [info] 3228#8320: *64 client 127.0.0.1 closed keepalive connection
+2018/06/04 19:13:12 [info] 3228#8320: *65 client 127.0.0.1 closed keepalive connection
+2018/06/04 19:13:17 [info] 3228#8320: *61 client 127.0.0.1 closed keepalive connection (10054: An existing connection was forcibly closed by the remote host)
+2018/06/04 19:13:17 [info] 3228#8320: *62 client 127.0.0.1 closed keepalive connection (10054: An existing connection was forcibly closed by the remote host)
+2018/06/04 19:13:18 [info] 3228#8320: *66 client 127.0.0.1 closed keepalive connection
+2018/06/04 19:13:24 [info] 3228#8320: *67 client 127.0.0.1 closed keepalive connection
+2018/06/04 19:13:30 [info] 3228#8320: *68 client 127.0.0.1 closed keepalive connection
+2018/06/04 19:13:30 [info] 3228#8320: *17 client 127.0.0.1 closed keepalive connection
+2018/06/04 19:14:35 [info] 3228#8320: *70 client closed connection while waiting for request, client: 127.0.0.1, server: 0.0.0.0:81
+2018/06/04 19:16:48 [info] 3228#8320: *1 deleteStream, client: 192.168.1.103, server: 0.0.0.0:1935
+2018/06/04 19:16:48 [info] 3228#8320: *1 disconnect, client: 192.168.1.103, server: 0.0.0.0:1935
+2018/06/04 19:16:48 [info] 3228#8320: *1 deleteStream, client: 192.168.1.103, server: 0.0.0.0:1935
+2018/06/04 19:17:16 [info] 3228#8320: *74 client 127.0.0.1 closed keepalive connection
+2018/06/04 19:17:23 [info] 3228#8320: *75 client 127.0.0.1 closed keepalive connection
+2018/06/04 19:17:30 [info] 3228#8320: *76 client 127.0.0.1 closed keepalive connection
+2018/06/04 19:17:37 [info] 3228#8320: *77 client 127.0.0.1 closed keepalive connection
+2018/06/04 19:17:44 [info] 3228#8320: *78 client 127.0.0.1 closed keepalive connection
+2018/06/04 19:17:51 [info] 3228#8320: *79 client 127.0.0.1 closed keepalive connection
+2018/06/04 19:17:53 [info] 3228#8320: *80 client connected '192.168.1.103'
+2018/06/04 19:17:53 [info] 3228#8320: *80 connect: app='hls' args='' flashver='' swf_url='' tc_url='rtmp://192.168.1.102/hls' page_url='' acodecs=0 vcodecs=0 object_encoding=0, client: 192.168.1.103, server: 0.0.0.0:1935
+2018/06/04 19:17:53 [info] 3228#8320: *80 createStream, client: 192.168.1.103, server: 0.0.0.0:1935
+2018/06/04 19:17:53 [info] 3228#8320: *80 publish: name='123' args='' type=live silent=0, client: 192.168.1.103, server: 0.0.0.0:1935
+2018/06/04 19:17:53 [error] 3228#8320: *80 hls: force fragment split: -1110.192 sec, , client: 192.168.1.103, server: 0.0.0.0:1935
+2018/06/04 19:17:58 [info] 3228#8320: *81 client 127.0.0.1 closed keepalive connection
+2018/06/04 19:18:02 [info] 3228#8320: *80 deleteStream, client: 192.168.1.103, server: 0.0.0.0:1935
+2018/06/04 19:18:02 [info] 3228#8320: *80 disconnect, client: 192.168.1.103, server: 0.0.0.0:1935
+2018/06/04 19:18:02 [info] 3228#8320: *80 deleteStream, client: 192.168.1.103, server: 0.0.0.0:1935
+2018/06/04 19:18:05 [info] 3228#8320: *82 client 127.0.0.1 closed keepalive connection
+2018/06/04 19:18:12 [info] 3228#8320: *83 client 127.0.0.1 closed keepalive connection
+2018/06/04 19:18:12 [info] 3228#8320: *84 client connected '192.168.1.103'
+2018/06/04 19:18:12 [info] 3228#8320: *84 connect: app='hls' args='' flashver='' swf_url='' tc_url='rtmp://192.168.1.102/hls' page_url='' acodecs=0 vcodecs=0 object_encoding=0, client: 192.168.1.103, server: 0.0.0.0:1935
+2018/06/04 19:18:13 [info] 3228#8320: *84 createStream, client: 192.168.1.103, server: 0.0.0.0:1935
+2018/06/04 19:18:13 [info] 3228#8320: *84 publish: name='123' args='' type=live silent=0, client: 192.168.1.103, server: 0.0.0.0:1935
+2018/06/04 19:18:19 [info] 3228#8320: *85 client 127.0.0.1 closed keepalive connection
+2018/06/04 19:18:26 [info] 3228#8320: *86 client 127.0.0.1 closed keepalive connection
+2018/06/04 19:18:33 [info] 3228#8320: *87 client 127.0.0.1 closed keepalive connection
+2018/06/04 19:18:40 [info] 3228#8320: *88 client 127.0.0.1 closed keepalive connection
+2018/06/04 19:18:47 [info] 3228#8320: *89 client 127.0.0.1 closed keepalive connection
+2018/06/04 19:18:54 [info] 3228#8320: *90 client 127.0.0.1 closed keepalive connection
+2018/06/04 19:18:55 [info] 3228#8320: *84 deleteStream, client: 192.168.1.103, server: 0.0.0.0:1935
+2018/06/04 19:18:55 [info] 3228#8320: *84 disconnect, client: 192.168.1.103, server: 0.0.0.0:1935
+2018/06/04 19:18:55 [info] 3228#8320: *84 deleteStream, client: 192.168.1.103, server: 0.0.0.0:1935
+2018/06/04 19:19:02 [info] 3228#8320: *91 client 127.0.0.1 closed keepalive connection
+2018/06/04 19:19:06 [info] 3228#8320: *73 client 127.0.0.1 closed keepalive connection
+2018/06/04 19:20:58 [notice] 14476#10872: signal process started
+2018/06/04 19:20:58 [error] 14476#10872: CreateFile() "C:\DT_LiveStreamServer/logs/nginx.pid" failed (2: The system cannot find the file specified)
+2018/06/04 19:21:34 [notice] 12444#13240: signal process started
+2018/06/04 19:21:34 [error] 12444#13240: CreateFile() "C:\DT_LiveStreamServer/logs/nginx.pid" failed (2: The system cannot find the file specified)
+2018/06/04 19:21:44 [notice] 6692#11504: signal process started
+2018/06/04 19:21:44 [error] 6692#11504: CreateFile() "C:\DT_LiveStreamServer/logs/nginx.pid" failed (2: The system cannot find the file specified)
+2018/06/04 19:22:16 [notice] 10164#8012: signal process started
+2018/06/04 19:22:16 [error] 10164#8012: CreateFile() "C:\DT_LiveStreamServer/logs/nginx.pid" failed (2: The system cannot find the file specified)
+2018/06/04 19:22:56 [notice] 7668#5472: signal process started
+2018/06/04 19:22:56 [error] 7668#5472: CreateFile() "C:\DT_LiveStreamServer/logs/nginx.pid" failed (2: The system cannot find the file specified)
+2018/06/04 19:23:54 [notice] 12312#10556: using the "select" event method
+2018/06/04 19:23:54 [notice] 12312#10556: nginx/1.13.12
+2018/06/04 19:23:54 [info] 12312#10556: OS: 260200 build:9200, "", suite:300, type:1
+2018/06/04 19:23:54 [notice] 12312#10556: start worker processes
+2018/06/04 19:23:54 [notice] 12312#10556: start worker process 10028
+2018/06/04 19:23:54 [notice] 10028#9080: nginx/1.13.12
+2018/06/04 19:23:54 [info] 10028#9080: OS: 260200 build:9200, "", suite:300, type:1
+2018/06/04 19:23:54 [notice] 10028#9080: create thread 3756
+2018/06/04 19:23:54 [notice] 10028#9080: create thread 3024
+2018/06/04 19:23:54 [notice] 10028#9080: create thread 10344
+2018/06/04 19:23:57 [notice] 380#8384: signal process started
+2018/06/04 19:23:57 [notice] 12312#10556: exiting
+2018/06/04 19:23:57 [notice] 10028#9080: gracefully shutting down
+2018/06/04 19:23:57 [notice] 10028#3024: exiting
+2018/06/04 19:23:57 [notice] 10028#3756: exiting
+2018/06/04 19:23:57 [notice] 10028#9080: exit
+2018/06/04 19:23:57 [notice] 12312#10556: worker process 10028 exited with code 0
+2018/06/04 19:23:57 [notice] 12312#10556: exit
+2018/06/04 19:24:21 [notice] 14420#12264: signal process started
+2018/06/04 19:24:21 [error] 14420#12264: CreateFile() "C:\DT_LiveStreamServer/logs/nginx.pid" failed (2: The system cannot find the file specified)
+2018/06/04 19:24:26 [notice] 13692#3728: using the "select" event method
+2018/06/04 19:24:26 [notice] 13692#3728: nginx/1.13.12
+2018/06/04 19:24:26 [info] 13692#3728: OS: 260200 build:9200, "", suite:300, type:1
+2018/06/04 19:24:26 [notice] 13692#3728: start worker processes
+2018/06/04 19:24:26 [notice] 13692#3728: start worker process 3624
+2018/06/04 19:24:26 [notice] 3624#7828: nginx/1.13.12
+2018/06/04 19:24:26 [info] 3624#7828: OS: 260200 build:9200, "", suite:300, type:1
+2018/06/04 19:24:26 [notice] 3624#7828: create thread 16340
+2018/06/04 19:24:26 [notice] 3624#7828: create thread 10404
+2018/06/04 19:24:26 [notice] 3624#7828: create thread 10948
+2018/06/04 19:24:28 [notice] 7084#15532: signal process started
+2018/06/04 19:24:28 [notice] 13692#3728: exiting
+2018/06/04 19:24:28 [notice] 3624#7828: gracefully shutting down
+2018/06/04 19:24:28 [notice] 3624#10404: exiting
+2018/06/04 19:24:28 [notice] 3624#16340: exiting
+2018/06/04 19:24:28 [notice] 3624#7828: exit
+2018/06/04 19:24:28 [notice] 13692#3728: worker process 3624 exited with code 0
+2018/06/04 19:24:28 [notice] 13692#3728: exit
+2018/06/04 19:25:26 [emerg] 2044#12976: CreateDirectory() "/tmp/dash" failed (3: The system cannot find the path specified)
+2018/06/04 19:26:00 [notice] 2156#8520: signal process started
+2018/06/04 19:26:00 [error] 2156#8520: CreateFile() "C:\DT_LiveStreamServer/logs/nginx.pid" failed (2: The system cannot find the file specified)
+2018/06/04 19:26:55 [notice] 12280#15120: using the "select" event method
+2018/06/04 19:26:55 [notice] 12280#15120: nginx/1.13.12
+2018/06/04 19:26:55 [info] 12280#15120: OS: 260200 build:9200, "", suite:300, type:1
+2018/06/04 19:26:55 [notice] 12280#15120: start worker processes
+2018/06/04 19:26:55 [notice] 12280#15120: start worker process 8384
+2018/06/04 19:26:55 [notice] 8384#7632: nginx/1.13.12
+2018/06/04 19:26:55 [info] 8384#7632: OS: 260200 build:9200, "", suite:300, type:1
+2018/06/04 19:26:55 [notice] 8384#7632: create thread 7172
+2018/06/04 19:26:55 [notice] 8384#7632: create thread 10096
+2018/06/04 19:26:55 [notice] 8384#7632: create thread 2644
+2018/06/04 19:27:09 [info] 3228#8320: *92 client connected '192.168.1.103'
+2018/06/04 19:27:09 [info] 3228#8320: *92 connect: app='hls' args='' flashver='' swf_url='' tc_url='rtmp://192.168.1.102/hls' page_url='' acodecs=0 vcodecs=0 object_encoding=0, client: 192.168.1.103, server: 0.0.0.0:1935
+2018/06/04 19:27:09 [info] 3228#8320: *92 createStream, client: 192.168.1.103, server: 0.0.0.0:1935
+2018/06/04 19:27:09 [info] 3228#8320: *92 publish: name='123' args='' type=live silent=0, client: 192.168.1.103, server: 0.0.0.0:1935
+2018/06/04 19:27:09 [error] 3228#8320: *92 hls: force fragment split: -41.238 sec, , client: 192.168.1.103, server: 0.0.0.0:1935
+2018/06/04 19:27:34 [info] 3228#8320: *92 deleteStream, client: 192.168.1.103, server: 0.0.0.0:1935
+2018/06/04 19:27:34 [info] 3228#8320: *92 disconnect, client: 192.168.1.103, server: 0.0.0.0:1935
+2018/06/04 19:27:34 [info] 3228#8320: *92 deleteStream, client: 192.168.1.103, server: 0.0.0.0:1935
+2018/06/04 19:27:46 [info] 3228#8320: *93 client connected '192.168.1.103'
+2018/06/04 19:27:46 [info] 3228#8320: *93 connect: app='hls' args='' flashver='' swf_url='' tc_url='rtmp://192.168.1.102/hls' page_url='' acodecs=0 vcodecs=0 object_encoding=0, client: 192.168.1.103, server: 0.0.0.0:1935
+2018/06/04 19:27:46 [info] 3228#8320: *93 createStream, client: 192.168.1.103, server: 0.0.0.0:1935
+2018/06/04 19:27:46 [info] 3228#8320: *93 publish: name='123' args='' type=live silent=0, client: 192.168.1.103, server: 0.0.0.0:1935
+2018/06/04 19:27:52 [info] 3228#8320: *93 deleteStream, client: 192.168.1.103, server: 0.0.0.0:1935
+2018/06/04 19:27:52 [info] 3228#8320: *93 disconnect, client: 192.168.1.103, server: 0.0.0.0:1935
+2018/06/04 19:27:52 [info] 3228#8320: *93 deleteStream, client: 192.168.1.103, server: 0.0.0.0:1935
